@@ -4,7 +4,7 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/liezong
+    url: jdbc:mysql://localhost:3306/ccrp
     username: root
     password: 123456
   mvc:
@@ -15,10 +15,10 @@ spring:
     timeout: 86400
     store-type: redis
   # redis 配置
-  redis:
-    port: 6379
-    host: localhost
-    database: 0
+#  redis:
+#    port: 6379
+#    host: localhost
+#    database: 0
 server:
   port: 7529
   servlet:

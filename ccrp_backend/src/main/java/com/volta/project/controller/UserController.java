@@ -86,7 +86,7 @@ public class UserController {
 
     @GetMapping("/search")
     public BaseResponse<List<User>> searchUser(String username, HttpServletRequest request) {
-        userService.assertAdmin(request);
+        //userService.assertAdmin(request);
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         if (StringUtils.isNotBlank(username)) {
             queryWrapper.like("username", username);
@@ -98,7 +98,7 @@ public class UserController {
 
     @PostMapping("/delete")
     public BaseResponse<Boolean> deleteUser(@RequestBody long id, HttpServletRequest request) {
-        userService.assertAdmin(request);
+        //userService.assertAdmin(request);
         if (id <= 0) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }

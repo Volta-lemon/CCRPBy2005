@@ -1,6 +1,7 @@
 package com.volta.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.volta.project.exception.BusinessException;
 import com.volta.project.model.entity.User;
 import javax.servlet.http.HttpServletRequest;
 
@@ -53,7 +54,7 @@ public interface UserService extends IService<User> {
      * @param request
      * @return
      */
-    boolean isAdmin(HttpServletRequest request);
+    //boolean isAdmin(HttpServletRequest request);
 
     /**
      * 是否为管理员
@@ -61,21 +62,21 @@ public interface UserService extends IService<User> {
      * @param user
      * @return
      */
-    boolean isAdmin(User user);
+    //boolean isAdmin(User user);
 
     /**
      * 断言是管理员
      *
      * @param request
      */
-    void assertAdmin(HttpServletRequest request);
+    //void assertAdmin(HttpServletRequest request);
 
     /**
      * 获取登录用户（查缓存）
      *
      * @param request
      * @return
-     * @throws com.volta.project.exception.BusinessException 未登录则抛异常
+     * @throws BusinessException 未登录则抛异常
      */
     User getLoginUser(HttpServletRequest request);
 }
