@@ -4,7 +4,7 @@ import com.volta.project.common.BaseResponse;
 import com.volta.project.common.ErrorCode;
 import com.volta.project.common.PageUtils;
 import com.volta.project.common.ResultUtils;
-import com.volta.project.controller.exception.BusinessException;
+import com.volta.project.exception.BusinessException;
 import com.volta.project.model.entity.Artifact;
 import com.volta.project.model.request.Artifact.ArtifactDetailRequest;
 import com.volta.project.model.request.Artifact.ArtifactGetRequest;

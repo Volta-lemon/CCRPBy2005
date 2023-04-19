@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.volta.project.common.BaseResponse;
 import com.volta.project.common.ErrorCode;
 import com.volta.project.common.ResultUtils;
-import com.volta.project.controller.exception.BusinessException;
+import com.volta.project.exception.BusinessException;
 import com.volta.project.model.entity.User;
 import com.volta.project.model.request.UserLoginRequest;
 import com.volta.project.model.request.UserRegisterRequest;

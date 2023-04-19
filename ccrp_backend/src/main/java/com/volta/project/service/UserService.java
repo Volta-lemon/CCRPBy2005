@@ -1,7 +1,7 @@
 package com.volta.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.volta.project.controller.exception.BusinessException;
+import com.volta.project.exception.BusinessException;
 import com.volta.project.model.entity.User;
 import javax.servlet.http.HttpServletRequest;
 

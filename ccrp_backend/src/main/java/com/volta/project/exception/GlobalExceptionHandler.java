@@ -1,4 +1,4 @@
-package com.volta.project.controller.exception;
+package com.volta.project.exception;
 
 import com.volta.project.common.BaseResponse;
 import com.volta.project.common.ErrorCode;

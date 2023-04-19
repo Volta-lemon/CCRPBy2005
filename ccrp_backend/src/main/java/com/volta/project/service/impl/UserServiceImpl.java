@@ -5,7 +5,7 @@ import static com.volta.project.constant.UserConstant.USER_LOGIN_STATE;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.volta.project.common.ErrorCode;
-import com.volta.project.controller.exception.BusinessException;
+import com.volta.project.exception.BusinessException;
 import com.volta.project.mapper.UserMapper;
 import com.volta.project.model.entity.User;
 import com.volta.project.service.UserService;
