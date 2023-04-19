@@ -1,11 +1,11 @@
-package com.volta.project.model.request;
+package com.volta.project.model.request.Artifact;
 
 import lombok.Data;
 
 @Data
 public class ArtifactGetRequest {
-    private int pageSize;
-    private int currPage;
+    private Integer pageSize;
+    private Integer currPage;
     private Integer startTime;
     private Integer endTime;
     private Integer isAscend;
