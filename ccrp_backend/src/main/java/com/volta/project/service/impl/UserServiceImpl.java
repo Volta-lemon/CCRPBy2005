@@ -5,8 +5,7 @@ import static com.volta.project.constant.UserConstant.USER_LOGIN_STATE;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.volta.project.common.ErrorCode;
-import com.volta.project.constant.UserConstant;
-import com.volta.project.exception.BusinessException;
+import com.volta.project.controller.exception.BusinessException;
 import com.volta.project.mapper.UserMapper;
 import com.volta.project.model.entity.User;
 import com.volta.project.service.UserService;
@@ -79,7 +78,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         // 3. 插入数据
         User user = new User();
         user.setUserAccount(userAccount);
-        user.setUserPassword(encryptPassword);
+        user.setPassword(encryptPassword);
         boolean saveResult = this.save(user);
         if (!saveResult) {
             return -1;
@@ -140,11 +139,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         safetyUser.setUsername(originUser.getUsername());
         safetyUser.setUserAccount(originUser.getUserAccount());
         safetyUser.setAvatarUrl(originUser.getAvatarUrl());
-        safetyUser.setGender(originUser.getGender());
+//        safetyUser.setGender(originUser.getGender());
         safetyUser.setPhone(originUser.getPhone());
         safetyUser.setEmail(originUser.getEmail());
-        safetyUser.setUserRole(originUser.getUserRole());
-        safetyUser.setUserStatus(originUser.getUserStatus());
+/*        safetyUser.setUserRole(originUser.getUserRole());
+        safetyUser.setUserStatus(originUser.getUserStatus());*/
         safetyUser.setCreateTime(originUser.getCreateTime());
         return safetyUser;
     }
@@ -161,7 +160,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         return 1;
     }
 
-    @Override
+/*    @Override
     public boolean isAdmin(HttpServletRequest request) {
         Object userObj = request.getSession().getAttribute(USER_LOGIN_STATE);
         User user = (User) userObj;
@@ -178,7 +177,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         if (!isAdmin(request)) {
             throw new BusinessException(ErrorCode.NO_AUTH);
         }
-    }
+    }*/
 
     @Override
     public User getLoginUser(HttpServletRequest request) {

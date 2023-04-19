@@ -39,15 +39,12 @@ public class User implements Serializable {
      */
     private String avatarUrl;
 
-    /**
-     * 性别
-     */
-    private Integer gender;
+
 
     /**
      * 密码
      */
-    private String userPassword;
+    private String password;
 
     /**
      * 电话
@@ -59,10 +56,7 @@ public class User implements Serializable {
      */
     private String email;
 
-    /**
-     * 状态 0 - 正常
-     */
-    private Integer userStatus;
+
 
     /**
      * 创建时间
@@ -80,10 +74,6 @@ public class User implements Serializable {
     @TableLogic
     private Integer isDelete;
 
-    /**
-     * 用户角色 0 - 普通用户 1 - 管理员
-     */
-    private Integer userRole;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
