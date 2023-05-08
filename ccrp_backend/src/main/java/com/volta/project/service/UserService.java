@@ -79,4 +79,7 @@ public interface UserService extends IService<User> {
      * @throws BusinessException 未登录则抛异常
      */
     User getLoginUser(HttpServletRequest request);
+
+    interface AppArtifactService {
+    }
 }
