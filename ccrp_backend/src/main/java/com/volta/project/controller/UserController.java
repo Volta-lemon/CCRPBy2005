@@ -3,6 +3,7 @@ package com.volta.project.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.volta.project.common.BaseResponse;
 import com.volta.project.common.ErrorCode;
+import com.volta.project.common.Result;
 import com.volta.project.common.ResultUtils;
 import com.volta.project.exception.BusinessException;
 import com.volta.project.model.entity.User;
@@ -39,6 +40,7 @@ public class UserController {
     @PostMapping("/register")
     @ApiOperation(value = "管理员登录")
     public BaseResponse<Long> userRegister(@RequestBody UserRegisterRequest userRegisterRequest) {
+	System.out.println("你好好"+userRegisterRequest);
         if (userRegisterRequest == null) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
@@ -53,7 +55,11 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public BaseResponse<User> userLogin(@RequestBody UserLoginRequest userLoginRequest, HttpServletRequest request) {
+    @ResponseBody
+    // li minglu's implementation
+    /*
+      
+      public BaseResponse<User> userLogin(@RequestBody UserLoginRequest userLoginRequest, HttpServletRequest request) {
         if (userLoginRequest == null) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
@@ -64,6 +70,25 @@ public class UserController {
         }
         User user = userService.userLogin(userAccount, userPassword, request);
         return ResultUtils.success(user);
+    }
+      
+     */
+    public Result userLogin(@RequestBody UserLoginRequest userLoginRequest, HttpServletRequest request, HttpServletRequest response) {
+        System.out.println(userLoginRequest);
+        if (userLoginRequest == null) {
+            throw new BusinessException(ErrorCode.PARAMS_ERROR);
+        }
+        String userAccount = userLoginRequest.getUserAccount();
+        String userPassword = userLoginRequest.getUserPassword();
+        if (StringUtils.isAnyBlank(userAccount, userPassword)) {
+            throw new BusinessException(ErrorCode.PARAMS_ERROR);
+        }
+//        User user = userService.userLogin(userAccount, userPassword, request);
+//        System.out.println(user);
+        //返回jwt
+        String status = userService.userLogin(userAccount, userPassword, request);
+//        System.out.println(Result.success(status));
+        return Result.success(status);
     }
 
     @PostMapping("/logout")
