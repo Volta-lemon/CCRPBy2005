@@ -3,6 +3,8 @@ package com.volta.project.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.volta.project.exception.BusinessException;
 import com.volta.project.model.entity.User;
+import com.volta.project.model.request.UserRegisterRequest;
+
 import javax.servlet.http.HttpServletRequest;
 
 /**

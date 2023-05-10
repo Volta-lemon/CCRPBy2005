@@ -5,10 +5,15 @@ import static com.volta.project.constant.UserConstant.USER_LOGIN_STATE;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.volta.project.common.ErrorCode;
+import com.volta.project.common.JwtUtils;
 import com.volta.project.exception.BusinessException;
 import com.volta.project.mapper.UserMapper;
 import com.volta.project.model.entity.User;
+import com.volta.project.model.request.UserRegisterRequest;
 import com.volta.project.service.UserService;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.annotation.Resource;
@@ -39,21 +44,24 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     /**
      * @author jiawenqi
      * @Description 实现用户注册
-     * @param userAccount 用户账户
-     * @param userPassword 用户密码
-     * @param checkPassword 校验密码
+//     * @param userAccount 用户账户
+//     * @param userPassword 用户密码
      * @return 新用户 id
      */
     @Override
-    public long userRegister(String userAccount, String userPassword, String checkPassword) {
+    public long userRegister(UserRegisterRequest userRegisterRequest) {
+        String userAccount = userRegisterRequest.getUserAccount();
+        String userPassword = userRegisterRequest.getUserPassword();
+//        String checkPassword = userRegisterRequest.getCheckPassword();
+//        System.out.println("你好哈哈哈");
         // 1. 校验
-        if (StringUtils.isAnyBlank(userAccount, userPassword, checkPassword)) {
+        if (StringUtils.isAnyBlank(userAccount, userPassword)) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "参数为空");
         }
         if (userAccount.length() < 4) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "用户账号过短");
         }
-        if (userPassword.length() < 8 || checkPassword.length() < 8) {
+        if (userPassword.length() < 8) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "用户密码过短");
         }
         // 账户不能包含特殊字符
@@ -63,9 +71,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
             return -1;
         }
         // 密码和校验密码相同
-        if (!userPassword.equals(checkPassword)) {
-            return -1;
-        }
+//        if (!userPassword.equals(checkPassword)) {
+//            return -1;
+//        }
         // 账户不能重复
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("userAccount", userAccount);
@@ -75,11 +83,24 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         }
         // 2. 加密
         String encryptPassword = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
+//        String encryptPassword = userPassword;
         // 3. 插入数据
+        //可以结合数据库和需求对下列新添数据进行修改
         User user = new User();
+        user.setUserName(userRegisterRequest.getUserName());
         user.setUserAccount(userAccount);
-        user.setPassword(encryptPassword);
+        user.setUserPassword(encryptPassword);
+        user.setAvatarUrl(userRegisterRequest.getAvatarUrl());
+        user.setEmail(userRegisterRequest.getEmail());
+        user.setPhone(userRegisterRequest.getPhone());
+        user.setId_card(userRegisterRequest.getId_card());
+        user.setDian_zan(userRegisterRequest.getDian_zan());
+        user.setPing_lun(userRegisterRequest.getPing_lun());
+        user.setCreateTime(userRegisterRequest.getCreateTime());
+        user.setUpdateTime(userRegisterRequest.getUpdateTime());
+//        System.out.println("你好"+user);
         boolean saveResult = this.save(user);
+
         if (!saveResult) {
             return -1;
         }
@@ -87,7 +108,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     }
 
     @Override
-    public User userLogin(String userAccount, String userPassword, HttpServletRequest request) {
+    public String userLogin(String userAccount, String userPassword, HttpServletRequest request) {
         // 1. 校验
         if (StringUtils.isAnyBlank(userAccount, userPassword)) {
             return null;
@@ -106,11 +127,15 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         }
         // 2. 加密
         String encryptPassword = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
+//        String encryptPassword = userPassword;
         // 查询用户是否存在
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("userAccount", userAccount);
         queryWrapper.eq("userPassword", encryptPassword);
+        System.out.println("得到的账号为"+userAccount);
+        System.out.println("得到的加密为"+encryptPassword);
         User user = userMapper.selectOne(queryWrapper);
+        System.out.println("从数据库中得到的用户："+user);
         // 用户不存在
         if (user == null) {
             log.info("user login failed, userAccount cannot match userPassword");
@@ -118,9 +143,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         }
         // 3. 用户脱敏
         User safetyUser = getSafetyUser(user);
+//        System.out.println("设置一些信息后的用户："+safetyUser);
         // 4. 记录用户的登录态
         request.getSession().setAttribute(USER_LOGIN_STATE, safetyUser);
-        return safetyUser;
+
+        //得到jwt并返回
+        Map<String, Object> claims = new HashMap<>();
+        claims.put("userAccount",user.getUserAccount());
+        claims.put("userPassword",user.getUserPassword());
+        claims.put("userName",user.getUserName());
+        String jwt = JwtUtils.generateJwt(claims); //jwt中包含了当前登录管理员的信息
+//        return Result.success(jwt);
+        return jwt;
     }
 
     /**
@@ -136,7 +170,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         }
         User safetyUser = new User();
         safetyUser.setId(originUser.getId());
-        safetyUser.setUsername(originUser.getUsername());
+        safetyUser.setUserName(originUser.getUserName());
         safetyUser.setUserAccount(originUser.getUserAccount());
         safetyUser.setAvatarUrl(originUser.getAvatarUrl());
 //        safetyUser.setGender(originUser.getGender());
