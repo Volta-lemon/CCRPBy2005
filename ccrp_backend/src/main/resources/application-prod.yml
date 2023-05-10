@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.200.148.39:3306/ccrp
-    username: ccrp
-    password: SfDHMXPpEzdcx7p4
