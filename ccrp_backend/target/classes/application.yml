@@ -16,7 +16,7 @@ spring:
     store-type: redis
 #  redis:
 #    port: 6379
-#    host: localhost
+#    host: 101.200.148.39
 #    password: 123456789
 #    lettuce:
 #      pool:

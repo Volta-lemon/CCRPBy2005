@@ -29,7 +29,7 @@ public class ArtifactController {
     @Resource
     private ArtifactService artifactService;
 
-    @GetMapping("/getArtifactById")
+    @PostMapping("/getArtifactById")
     @ApiOperation(value = "通过id获取文物")
     BaseResponse<Artifact>getArtifactById(@RequestBody ArtifactDetailRequest artifactDetailRequest)
     {
@@ -42,7 +42,7 @@ public class ArtifactController {
         Integer id=artifactDetailRequest.getId();
         return ResultUtils.success(artifactService.getArtifactById(id));
     }
-    @GetMapping("/getArtifactsByDetail")
+    @PostMapping("/getArtifactsByDetail")
     @ApiOperation(value="通过文物具体信息，筛选或查询或搜索相关文物，进行分页查询，如果不需要对相应字段进行限定，就不传。分页信息必须传")
     BaseResponse<PageUtils>getArtifactsByDetail(@RequestBody ArtifactGetRequest artifactGetRequest)
     {
@@ -56,7 +56,7 @@ public class ArtifactController {
         return ResultUtils.success(artifactService.getArtifactsByDetail(artifactGetRequest.getCurrPage(),artifactGetRequest.getPageSize(),artifactGetRequest.getStartTime(),artifactGetRequest.getEndTime(),artifactGetRequest.getIsAscend(),artifactGetRequest.getAuthor(),artifactGetRequest.getArtifactName()));
     }
 
-    @GetMapping("/getSimilarArtifactsById")
+    @PostMapping("/getSimilarArtifactsById")
     @ApiOperation(value="通过文物id,进行分页查询，查询相似文物的信息。分页信息和id必须传")
     BaseResponse<PageUtils>getSimilarArtifactsById(@RequestBody ArtifactSimilarRequest artifactSimilarRequest)
     {
@@ -69,7 +69,7 @@ public class ArtifactController {
 
         return ResultUtils.success(artifactService.getSimilarArtifacts(artifactSimilarRequest.getCurrPage(),artifactSimilarRequest.getPageSize(),artifactSimilarRequest.getId()));
     }
-    @GetMapping("/searchArtifact")
+    @PostMapping("/searchArtifact")
     @ApiOperation(value="通过关键字,进行分页查询，查询相似文物的信息。分页信息和关键字必须传")
     BaseResponse<PageUtils>getSimilarArtifactsById(@RequestBody ArtifactSearchRequest artifactSearchRequest)
     {
