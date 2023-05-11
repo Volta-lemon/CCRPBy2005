@@ -1,0 +1,897 @@
+name,attr,value
+Jar,type,Vessel
+Jar,metiral,null
+Jar,belong,Toledo Museum of Art
+Jar,locate,American
+Yü (Ritual vessel),type,Vessel
+Yü (Ritual vessel),metiral,null
+Yü (Ritual vessel),belong,Toledo Museum of Art
+Yü (Ritual vessel),locate,American
+Vase,type,Vessel
+Vase,metiral,null
+Vase,belong,Toledo Museum of Art
+Vase,locate,American
+Vase and Stand,type,Vessel
+Vase and Stand,metiral,null
+Vase and Stand,belong,Toledo Museum of Art
+Vase and Stand,locate,American
+Vase with Double Cover,type,Vessel
+Vase with Double Cover,metiral,null
+Vase with Double Cover,belong,Toledo Museum of Art
+Vase with Double Cover,locate,American
+Sitting Monkey,type,Sculpture
+Sitting Monkey,metiral,null
+Sitting Monkey,belong,Toledo Museum of Art
+Sitting Monkey,locate,American
+Bronze Hu,type,Vessel
+Bronze Hu,metiral,Bronze
+Bronze Hu,belong,Toledo Museum of Art
+Bronze Hu,locate,American
+Cizhou bowl,type,Vessel
+Cizhou bowl,metiral,Earthenware with painted decoration
+Cizhou bowl,belong,Toledo Museum of Art
+Cizhou bowl,locate,American
+Plaque,type,Plaque
+Plaque,metiral,null
+Plaque,belong,Toledo Museum of Art
+Plaque,locate,American
+Bead,type,Jewelry
+Bead,metiral,null
+Bead,belong,Toledo Museum of Art
+Bead,locate,American
+Disk,type,Artifact
+Disk,metiral,null
+Disk,belong,Toledo Museum of Art
+Disk,locate,American
+Figures (bronze),type,Sculpture
+Figures (bronze),metiral,Bronze
+Figures (bronze),belong,University's Oriental Museum
+Figures (bronze),locate,England
+Figures (bronze),type,Sculpture
+Figures (bronze),metiral,Bronze
+Figures (bronze),belong,University's Oriental Museum
+Figures (bronze),locate,England
+Vessels (bronze),type,Vessel
+Vessels (bronze),metiral,Bronze
+Vessels (bronze),belong,University's Oriental Museum
+Vessels (bronze),locate,England
+Figures (bronze),type,Sculpture
+Figures (bronze),metiral,Bronze
+Figures (bronze),belong,University's Oriental Museum
+Figures (bronze),locate,England
+Figures (bronze),type,Sculpture
+Figures (bronze),metiral,Bronze
+Figures (bronze),belong,University's Oriental Museum
+Figures (bronze),locate,England
+Plaque (bronze),type,Plaque
+Plaque (bronze),metiral,Bronze
+Plaque (bronze),belong,University's Oriental Museum
+Plaque (bronze),locate,England
+Figures (bronze),type,Sculpture
+Figures (bronze),metiral,Bronze
+Figures (bronze),belong,University's Oriental Museum
+Figures (bronze),locate,England
+Mirrors (brass),type,Mirror
+Mirrors (brass),metiral,Brass
+Mirrors (brass),belong,University's Oriental Museum
+Mirrors (brass),locate,England
+Fitting; handles,type,Artifact
+Fitting; handles,metiral,Bronze
+Fitting; handles,belong,University's Oriental Museum
+Fitting; handles,locate,England
+Bowls,type,Vessel
+Bowls,metiral,Bronze
+Bowls,belong,University's Oriental Museum
+Bowls,locate,England
+Fitting; handles,type,Artifact
+Fitting; handles,metiral,Bronze
+Fitting; handles,belong,University's Oriental Museum
+Fitting; handles,locate,England
+Ornaments,type,Artifact
+Ornaments,metiral,Bronze
+Ornaments,belong,University's Oriental Museum
+Ornaments,locate,England
+Iron; ladles,type,Tool
+Iron; ladles,metiral,Bronze
+Iron; ladles,belong,University's Oriental Museum
+Iron; ladles,locate,England
+Figures; Tomb Model,type,Sculpture
+Figures; Tomb Model,metiral,Pottery
+Figures; Tomb Model,belong,University's Oriental Museum
+Figures; Tomb Model,locate,England
+Eye Protector,type,Jewelry
+Eye Protector,metiral,Jade
+Eye Protector,belong,University's Oriental Museum
+Eye Protector,locate,England
+Figures; Plaque,type,Sculpture
+Figures; Plaque,metiral,Lead
+Figures; Plaque,belong,University's Oriental Museum
+Figures; Plaque,locate,England
+Mouth Jade; amulets,type,Jewelry
+Mouth Jade; amulets,metiral,Nephrite carving with incision
+Mouth Jade; amulets,belong,University's Oriental Museum
+Mouth Jade; amulets,locate,England
+Axle-caps,type,Artifact
+Axle-caps,metiral,Cast bronze
+Axle-caps,belong,University's Oriental Museum
+Axle-caps,locate,England
+Painted earthenware jar,type,Pots
+Painted earthenware jar,metiral,Earthenware
+Painted earthenware jar,belong,University's Oriental Museum
+Painted earthenware jar,locate,England
+Earthenware with green glaze,type,Models; figures
+Earthenware with green glaze,metiral,Earthenware
+Earthenware with green glaze,belong,University's Oriental Museum
+Earthenware with green glaze,locate,England
+"Olive green steatite, carved",type,Mirrors
+"Olive green steatite, carved",metiral,Steatite
+"Olive green steatite, carved",belong,University's Oriental Museum
+"Olive green steatite, carved",locate,England
+Green serpentine with brown markings,type,Mirrors
+Green serpentine with brown markings,metiral,Serpentine
+Green serpentine with brown markings,belong,University's Oriental Museum
+Green serpentine with brown markings,locate,England
+"Pale green nephrite carving, figures",type,Pendant
+"Pale green nephrite carving, figures",metiral,Nephrite
+"Pale green nephrite carving, figures",belong,University's Oriental Museum
+"Pale green nephrite carving, figures",locate,England
+Brown nephrite carving,type,Amulets
+Brown nephrite carving,metiral,Nephrite
+Brown nephrite carving,belong,University's Oriental Museum
+Brown nephrite carving,locate,England
+Earthenware covered with green glaze,type,Models; figures
+Earthenware covered with green glaze,metiral,Earthenware
+Earthenware covered with green glaze,belong,University's Oriental Museum
+Earthenware covered with green glaze,locate,England
+"Pale green jade, slightly translucent",type,Pendant
+"Pale green jade, slightly translucent",metiral,Jade
+"Pale green jade, slightly translucent",belong,University's Oriental Museum
+"Pale green jade, slightly translucent",locate,England
+Cast bronze with carved patterns,type,Rulers
+Cast bronze with carved patterns,metiral,Bronze
+Cast bronze with carved patterns,belong,University's Oriental Museum
+Cast bronze with carved patterns,locate,England
+Bronze with gilt,type,Fitting
+Bronze with gilt,metiral,Bronze with gilt
+Bronze with gilt,belong,University's Oriental Museum
+Bronze with gilt,locate,England
+"Brown nephrite carving, perforated",type,Pendant
+"Brown nephrite carving, perforated",metiral,Nephrite
+"Brown nephrite carving, perforated",belong,University's Oriental Museum
+"Brown nephrite carving, perforated",locate,England
+Grey nephrite carving,type,Amulets; figures
+Grey nephrite carving,metiral,Nephrite
+Grey nephrite carving,belong,University's Oriental Museum
+Grey nephrite carving,locate,England
+Deep olive-brown nephrite carving,type,Pendant
+Deep olive-brown nephrite carving,metiral,Nephrite
+Deep olive-brown nephrite carving,belong,University's Oriental Museum
+Deep olive-brown nephrite carving,locate,England
+Bronze with incised decoration,type,Belt Hook
+Bronze with incised decoration,metiral,Bronze
+Bronze with incised decoration,belong,University's Oriental Museum
+Bronze with incised decoration,locate,England
+Cast bronze with openwork decoration,type,Censers
+Cast bronze with openwork decoration,metiral,Bronze
+Cast bronze with openwork decoration,belong,University's Oriental Museum
+Cast bronze with openwork decoration,locate,England
+"Yellowish green nephrite carving, figures",type,Pendant
+"Yellowish green nephrite carving, figures",metiral,Nephrite
+"Yellowish green nephrite carving, figures",belong,University's Oriental Museum
+"Yellowish green nephrite carving, figures",locate,England
+Dark grey hardstone carving,type,Amulets
+Dark grey hardstone carving,metiral,Hardstone
+Dark grey hardstone carving,belong,University's Oriental Museum
+Dark grey hardstone carving,locate,England
+Brown-green nephrite with olive markings,type,Back Protector
+Brown-green nephrite with olive markings,metiral,Nephrite
+Brown-green nephrite with olive markings,belong,University's Oriental Museum
+Brown-green nephrite with olive markings,locate,England
+"Reddish brown nephrite carving, Womb Protector",type,Plaque
+"Reddish brown nephrite carving, Womb Protector",metiral,Nephrite
+"Reddish brown nephrite carving, Womb Protector",belong,University's Oriental Museum
+"Reddish brown nephrite carving, Womb Protector",locate,England
+"Yellow jade with carved decoration, Scabbard Slide",type,Scabbards
+"Yellow jade with carved decoration, Scabbard Slide",metiral,Jade
+"Yellow jade with carved decoration, Scabbard Slide",belong,University's Oriental Museum
+"Yellow jade with carved decoration, Scabbard Slide",locate,England
+"Pale green nephrite carving, Feet Protector",type,Feet Protector
+"Pale green nephrite carving, Feet Protector",metiral,Nephrite
+"Pale green nephrite carving, Feet Protector",belong,University's Oriental Museum
+"Pale green nephrite carving, Feet Protector",locate,England
+"Nephrite jade with incised decoration, Disc",type,Disc
+"Nephrite jade with incised decoration, Disc",metiral,Nephrite jade
+"Nephrite jade with incised decoration, Disc",belong,University's Oriental Museum
+"Nephrite jade with incised decoration, Disc",locate,England
+"Copper alloy with moulded inscription, coins",type,Coins
+"Copper alloy with moulded inscription, coins",metiral,Copper alloy
+"Copper alloy with moulded inscription, coins",belong,University's Oriental Museum
+"Copper alloy with moulded inscription, coins",locate,England
+"Pale brown hardstone with perforation, figures",type,Pendant
+"Pale brown hardstone with perforation, figures",metiral,Hardstone
+"Pale brown hardstone with perforation, figures",belong,University's Oriental Museum
+"Pale brown hardstone with perforation, figures",locate,England
+"Copper alloy with minted inscription, coins",type,Coins
+"Copper alloy with minted inscription, coins",metiral,Copper alloy
+"Copper alloy with minted inscription, coins",belong,University's Oriental Museum
+"Copper alloy with minted inscription, coins",locate,England
+"Yellowish-brown hardstone carving, bells",type,Bells
+"Yellowish-brown hardstone carving, bells",metiral,Hardstone
+"Yellowish-brown hardstone carving, bells",belong,University's Oriental Museum
+"Yellowish-brown hardstone carving, bells",locate,England
+"Earthenware covered with green glaze, jars",type,Jars
+"Earthenware covered with green glaze, jars",metiral,Earthenware
+"Earthenware covered with green glaze, jars",belong,University's Oriental Museum
+"Earthenware covered with green glaze, jars",locate,England
+"Cast bronze, Cross-bow Lock",type,Lock
+"Cast bronze, Cross-bow Lock",metiral,Bronze
+"Cast bronze, Cross-bow Lock",belong,University's Oriental Museum
+"Cast bronze, Cross-bow Lock",locate,England
+"Earthenware covered with lead glaze, jars",type,Jars
+"Earthenware covered with lead glaze, jars",metiral,Earthenware
+"Earthenware covered with lead glaze, jars",belong,University's Oriental Museum
+"Earthenware covered with lead glaze, jars",locate,England
+Belt Hook (Cast bronze),type,Belt Hook
+Belt Hook (Cast bronze),metiral,Bronze
+Belt Hook (Cast bronze),belong,University's Oriental Museum
+Belt Hook (Cast bronze),locate,England
+Tablets (Green nephrite carving with incision),type,Tablets
+Tablets (Green nephrite carving with incision),metiral,Nephrite
+Tablets (Green nephrite carving with incision),belong,University's Oriental Museum
+Tablets (Green nephrite carving with incision),locate,England
+Masks (Cast bronze),type,Masks
+Masks (Cast bronze),metiral,Bronze
+Masks (Cast bronze),belong,University's Oriental Museum
+Masks (Cast bronze),locate,England
+Tomb Model; models; sheepfolds (Pottery with lead glaze),type,Tomb Model; sheepfolds
+Tomb Model; models; sheepfolds (Pottery with lead glaze),metiral,Pottery with lead glaze
+Tomb Model; models; sheepfolds (Pottery with lead glaze),belong,University's Oriental Museum
+Tomb Model; models; sheepfolds (Pottery with lead glaze),locate,England
+Tomb Model (Pottery with green lead glaze),type,Tomb Model
+Tomb Model (Pottery with green lead glaze),metiral,Pottery with green lead glaze
+Tomb Model (Pottery with green lead glaze),belong,University's Oriental Museum
+Tomb Model (Pottery with green lead glaze),locate,England
+Ewers (Earthenware covered in lead glaze),type,Ewers
+Ewers (Earthenware covered in lead glaze),metiral,Earthenware
+Ewers (Earthenware covered in lead glaze),belong,University's Oriental Museum
+Ewers (Earthenware covered in lead glaze),locate,England
+Belt Hook (Cast bronze with red patina),type,Belt Hook
+Belt Hook (Cast bronze with red patina),metiral,Bronze
+Belt Hook (Cast bronze with red patina),belong,University's Oriental Museum
+Belt Hook (Cast bronze with red patina),locate,England
+Rubbings (Ink on paper),type,Rubbings
+Rubbings (Ink on paper),metiral,Ink on paper
+Rubbings (Ink on paper),belong,University's Oriental Museum
+Rubbings (Ink on paper),locate,England
+Belt Hook (Cast bronze with engraved decoration),type,Belt Hook
+Belt Hook (Cast bronze with engraved decoration),metiral,Bronze
+Belt Hook (Cast bronze with engraved decoration),belong,University's Oriental Museum
+Belt Hook (Cast bronze with engraved decoration),locate,England
+Belt Hook (Cast bronze),type,Belt Hook
+Belt Hook (Cast bronze),metiral,Bronze
+Belt Hook (Cast bronze),belong,University's Oriental Museum
+Belt Hook (Cast bronze),locate,England
+Finials (Bronze with relief decoration),type,Finials
+Finials (Bronze with relief decoration),metiral,Bronze with relief decoration
+Finials (Bronze with relief decoration),belong,University's Oriental Museum
+Finials (Bronze with relief decoration),locate,England
+Tubes (Yellow nephrite carving),type,Tubes
+Tubes (Yellow nephrite carving),metiral,Nephrite
+Tubes (Yellow nephrite carving),belong,University's Oriental Museum
+Tubes (Yellow nephrite carving),locate,England
+Ornaments (Cast Bronze),type,Ornaments
+Ornaments (Cast Bronze),metiral,Bronze
+Ornaments (Cast Bronze),belong,University's Oriental Museum
+Ornaments (Cast Bronze),locate,England
+Mirrors (Cast bronze with decorations in low-relief),type,Mirrors
+Mirrors (Cast bronze with decorations in low-relief),metiral,Bronze
+Mirrors (Cast bronze with decorations in low-relief),belong,University's Oriental Museum
+Mirrors (Cast bronze with decorations in low-relief),locate,England
+Pendant; figures (Pale green and brown nephrite carving),type,Pendant; figures
+Pendant; figures (Pale green and brown nephrite carving),metiral,Nephrite
+Pendant; figures (Pale green and brown nephrite carving),belong,University's Oriental Museum
+Pendant; figures (Pale green and brown nephrite carving),locate,England
+Disc (Dark green nephrite with carved decoration),type,Disc
+Disc (Dark green nephrite with carved decoration),metiral,Nephrite
+Disc (Dark green nephrite with carved decoration),belong,University's Oriental Museum
+Disc (Dark green nephrite with carved decoration),locate,England
+Amulets; Mouth Jade (Buff white and grey nephrite carving),type,Amulets; Mouth Jade
+Amulets; Mouth Jade (Buff white and grey nephrite carving),metiral,Nephrite (buff white and grey)
+Amulets; Mouth Jade (Buff white and grey nephrite carving),belong,University's Oriental Museum
+Amulets; Mouth Jade (Buff white and grey nephrite carving),locate,England
+Hairpins (Copper alloy with carved jade terminal),type,Hairpins
+Hairpins (Copper alloy with carved jade terminal),metiral,Copper alloy with carved jade terminal
+Hairpins (Copper alloy with carved jade terminal),belong,University's Oriental Museum
+Hairpins (Copper alloy with carved jade terminal),locate,England
+Pendant; amulets (Dark grey and pale grey nephrite carving),type,Pendant; amulets
+Pendant; amulets (Dark grey and pale grey nephrite carving),metiral,Nephrite
+Pendant; amulets (Dark grey and pale grey nephrite carving),belong,University's Oriental Museum
+Pendant; amulets (Dark grey and pale grey nephrite carving),locate,England
+"Pommels (Green jade with brown markings, carved)",type,Pommels
+"Pommels (Green jade with brown markings, carved)",metiral,Jade
+"Pommels (Green jade with brown markings, carved)",belong,University's Oriental Museum
+"Pommels (Green jade with brown markings, carved)",locate,England
+Figures (Buff white nephrite carving with grey markings),type,Figures
+Figures (Buff white nephrite carving with grey markings),metiral,Nephrite
+Figures (Buff white nephrite carving with grey markings),belong,University's Oriental Museum
+Figures (Buff white nephrite carving with grey markings),locate,England
+"Scabbard Chape (Buff jade with brown markings, incised)",type,Scabbard Chape
+"Scabbard Chape (Buff jade with brown markings, incised)",metiral,Jade
+"Scabbard Chape (Buff jade with brown markings, incised)",belong,University's Oriental Museum
+"Scabbard Chape (Buff jade with brown markings, incised)",locate,England
+Amulets (Buff white and brown nephrite carving),type,Amulets
+Amulets (Buff white and brown nephrite carving),metiral,Nephrite
+Amulets (Buff white and brown nephrite carving),belong,University's Oriental Museum
+Amulets (Buff white and brown nephrite carving),locate,England
+Knee Protector (Grey nephrite carving with marbled markings),type,Knee Protector
+Knee Protector (Grey nephrite carving with marbled markings),metiral,Nephrite
+Knee Protector (Grey nephrite carving with marbled markings),belong,University's Oriental Museum
+Knee Protector (Grey nephrite carving with marbled markings),locate,England
+Plaque; Panel (Buff green nephrite with buff marking),type,Plaque; Panel
+Plaque; Panel (Buff green nephrite with buff marking),metiral,Nephrite
+Plaque; Panel (Buff green nephrite with buff marking),belong,University's Oriental Museum
+Plaque; Panel (Buff green nephrite with buff marking),locate,England
+Hand Protector (Brown and yellow nephrite with carving),type,Hand Protector
+Hand Protector (Brown and yellow nephrite with carving),metiral,Nephrite
+Hand Protector (Brown and yellow nephrite with carving),belong,University's Oriental Museum
+Hand Protector (Brown and yellow nephrite with carving),locate,England
+"Mouth Protector (Brown hardstone with olive markings, carved)",type,Mouth Protector
+"Mouth Protector (Brown hardstone with olive markings, carved)",metiral,Hardstone
+"Mouth Protector (Brown hardstone with olive markings, carved)",belong,University's Oriental Museum
+"Mouth Protector (Brown hardstone with olive markings, carved)",locate,England
+Ear Protector (Brown-green nephrite carving with low relief decoration),type,Ear Protector
+Ear Protector (Brown-green nephrite carving with low relief decoration),metiral,Nephrite
+Ear Protector (Brown-green nephrite carving with low relief decoration),belong,University's Oriental Museum
+Ear Protector (Brown-green nephrite carving with low relief decoration),locate,England
+Mouth Jade; figures (Highly calcified pale green nephrite carving),type,Mouth Jade; figures
+Mouth Jade; figures (Highly calcified pale green nephrite carving),metiral,Nephrite
+Mouth Jade; figures (Highly calcified pale green nephrite carving),belong,University's Oriental Museum
+Mouth Jade; figures (Highly calcified pale green nephrite carving),locate,England
+"Eye Protector (Green jade with brown markings, carved)",type,Eye Protector
+"Eye Protector (Green jade with brown markings, carved)",metiral,Jade
+"Eye Protector (Green jade with brown markings, carved)",belong,University's Oriental Museum
+"Eye Protector (Green jade with brown markings, carved)",locate,England
+Eye Protector (Pale green nephrite carving with incision),type,Eye Protector
+Eye Protector (Pale green nephrite carving with incision),metiral,Nephrite
+Eye Protector (Pale green nephrite carving with incision),belong,University's Oriental Museum
+Eye Protector (Pale green nephrite carving with incision),locate,England
+Incense burners (Earthenware covered with pale green lead glaze),type,Incense burners
+Incense burners (Earthenware covered with pale green lead glaze),metiral,Earthenware with pale green lead glaze
+Incense burners (Earthenware covered with pale green lead glaze),belong,University's Oriental Museum
+Incense burners (Earthenware covered with pale green lead glaze),locate,England
+Mirrors (Cast bronze with decorations in low-relief),type,Mirrors
+Mirrors (Cast bronze with decorations in low-relief),metiral,Bronze
+Mirrors (Cast bronze with decorations in low-relief),belong,University's Oriental Museum
+Mirrors (Cast bronze with decorations in low-relief),locate,England
+"Belt Hook (Cast bronze, partly covered with red patina)",type,Belt Hook
+"Belt Hook (Cast bronze, partly covered with red patina)",metiral,Bronze
+"Belt Hook (Cast bronze, partly covered with red patina)",belong,University's Oriental Museum
+"Belt Hook (Cast bronze, partly covered with red patina)",locate,England
+Figures; Tomb Figure (Pottery with traces of white pigment),type,Figures; Tomb Figure
+Figures; Tomb Figure (Pottery with traces of white pigment),metiral,Pottery with traces of white pigment
+Figures; Tomb Figure (Pottery with traces of white pigment),belong,University's Oriental Museum
+Figures; Tomb Figure (Pottery with traces of white pigment),locate,England
+Mouth Jade; figures (Pale green nephrite carving with red pigment),type,Mouth Jade; figures
+Mouth Jade; figures (Pale green nephrite carving with red pigment),metiral,Nephrite
+Mouth Jade; figures (Pale green nephrite carving with red pigment),belong,University's Oriental Museum
+Mouth Jade; figures (Pale green nephrite carving with red pigment),locate,England
+Belt Hook (Cast bronze with open work decoration),type,Belt Hook
+Belt Hook (Cast bronze with open work decoration),metiral,Bronze
+Belt Hook (Cast bronze with open work decoration),belong,University's Oriental Museum
+Belt Hook (Cast bronze with open work decoration),locate,England
+"Disc (Bluish green jade with buff shadow, incised and carved)",type,Disc
+"Disc (Bluish green jade with buff shadow, incised and carved)",metiral,Jade
+"Disc (Bluish green jade with buff shadow, incised and carved)",belong,University's Oriental Museum
+"Disc (Bluish green jade with buff shadow, incised and carved)",locate,England
+Pendant; ornaments (Pale green hardstone carving with buff brown calcification),type,Disc
+Pendant; ornaments (Pale green hardstone carving with buff brown calcification),metiral,Jade
+Pendant; ornaments (Pale green hardstone carving with buff brown calcification),belong,University's Oriental Museum
+Pendant; ornaments (Pale green hardstone carving with buff brown calcification),locate,England
+Les Pendus (Escape from Argyle Castle),type,Painting
+Les Pendus (Escape from Argyle Castle),metiral,Oil on canvas
+Les Pendus (Escape from Argyle Castle),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Les Pendus (Escape from Argyle Castle),locate,American
+Triple Gourd Vase,type,Vase
+Triple Gourd Vase,metiral,Porcelain
+Triple Gourd Vase,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Triple Gourd Vase,locate,American
+"Planter, of Planter (Ice Box) and Stand",type,"Planter, Stand"
+"Planter, of Planter (Ice Box) and Stand",metiral,"Wood, metal, and ceramic"
+"Planter, of Planter (Ice Box) and Stand",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Planter, of Planter (Ice Box) and Stand",locate,American
+Vase,type,Vase
+Vase,metiral,Porcelain
+Vase,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Vase,locate,American
+Snuff Bottle,type,Snuff Bottle
+Snuff Bottle,metiral,Glass
+Snuff Bottle,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Snuff Bottle,locate,American
+Snuff Bottle,type,Snuff Bottle
+Snuff Bottle,metiral,Glass
+Snuff Bottle,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Snuff Bottle,locate,American
+Buddhist Triad,type,Sculpture
+Buddhist Triad,metiral,Stone
+Buddhist Triad,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Buddhist Triad,locate,American
+Attacking Tiger (Attaque du Tigre),type,Painting
+Attacking Tiger (Attaque du Tigre),metiral,Oil on canvas
+Attacking Tiger (Attaque du Tigre),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Attacking Tiger (Attaque du Tigre),locate,American
+"Fortune Teller and his Chart with Body Markings, Kunming, China",type,Photograph
+"Fortune Teller and his Chart with Body Markings, Kunming, China",metiral,Gelatin silver print
+"Fortune Teller and his Chart with Body Markings, Kunming, China",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Fortune Teller and his Chart with Body Markings, Kunming, China",locate,American
+A Buddhist Monk Stands before Two Giant Guardian Gods in the Entrance Hall...,type,Photograph
+A Buddhist Monk Stands before Two Giant Guardian Gods in the Entrance Hall...,metiral,Gelatin silver print
+A Buddhist Monk Stands before Two Giant Guardian Gods in the Entrance Hall...,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+A Buddhist Monk Stands before Two Giant Guardian Gods in the Entrance Hall...,locate,American
+"The Widow, Mountain Woman of the Miao Tribe in Her Customary White Gown M...",type,Photograph
+"The Widow, Mountain Woman of the Miao Tribe in Her Customary White Gown M...",metiral,Gelatin silver print
+"The Widow, Mountain Woman of the Miao Tribe in Her Customary White Gown M...",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"The Widow, Mountain Woman of the Miao Tribe in Her Customary White Gown M...",locate,American
+"Miao Mountain People Mourning in Funeral Procession, Kweichow Province, C...",type,Photograph
+"Miao Mountain People Mourning in Funeral Procession, Kweichow Province, C...",metiral,Gelatin silver print
+"Miao Mountain People Mourning in Funeral Procession, Kweichow Province, C...",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Miao Mountain People Mourning in Funeral Procession, Kweichow Province, C...",locate,American
+"Hunan Peasant in His Rain Hat Leveling Irrigated Rice Field, China",type,Photograph
+"Hunan Peasant in His Rain Hat Leveling Irrigated Rice Field, China",metiral,Gelatin silver print
+"Hunan Peasant in His Rain Hat Leveling Irrigated Rice Field, China",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Hunan Peasant in His Rain Hat Leveling Irrigated Rice Field, China",locate,American
+"The Weekly County Market at Cheng-Kiang, Yunnan Province, China",type,Photograph
+"The Weekly County Market at Cheng-Kiang, Yunnan Province, China",metiral,Gelatin silver print
+"The Weekly County Market at Cheng-Kiang, Yunnan Province, China",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"The Weekly County Market at Cheng-Kiang, Yunnan Province, China",locate,American
+"Dragon and Guardian Frighten Evil Spirits Away from Hsi-Shan Temple, Yunna...",type,Photograph
+"Dragon and Guardian Frighten Evil Spirits Away from Hsi-Shan Temple, Yunna...",metiral,Gelatin silver print
+"Dragon and Guardian Frighten Evil Spirits Away from Hsi-Shan Temple, Yunna...",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Dragon and Guardian Frighten Evil Spirits Away from Hsi-Shan Temple, Yunna...",locate,American
+"Peasant with Water Buffalo Plowing Irrigated Rice Paddy, Hunan Province, C...",type,Photograph
+"Peasant with Water Buffalo Plowing Irrigated Rice Paddy, Hunan Province, C...",metiral,Gelatin silver print
+"Peasant with Water Buffalo Plowing Irrigated Rice Paddy, Hunan Province, C...",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Peasant with Water Buffalo Plowing Irrigated Rice Paddy, Hunan Province, C...",locate,American
+After Resting at the Picnic Place Pilgrims Climb Up to the Three Temples o...,type,Photograph
+After Resting at the Picnic Place Pilgrims Climb Up to the Three Temples o...,metiral,Gelatin silver print
+After Resting at the Picnic Place Pilgrims Climb Up to the Three Temples o...,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+After Resting at the Picnic Place Pilgrims Climb Up to the Three Temples o...,locate,American
+"An Exhausted Crippled Beggar Asleep at the Roadside to a Temple, Yunnan, ...",type,Photograph
+"An Exhausted Crippled Beggar Asleep at the Roadside to a Temple, Yunnan, ...",metiral,Gelatin silver print
+"An Exhausted Crippled Beggar Asleep at the Roadside to a Temple, Yunnan, ...",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"An Exhausted Crippled Beggar Asleep at the Roadside to a Temple, Yunnan, ...",locate,American
+Disc (bi),type,Disc
+Disc (bi),metiral,Jade
+Disc (bi),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Disc (bi),locate,American
+Fish bowl or jardiniere,type,Fish bowl or jardiniere
+Fish bowl or jardiniere,metiral,Porcelain
+Fish bowl or jardiniere,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Fish bowl or jardiniere,locate,American
+Uncut Fabric for Dragon Robe,type,Uncut Fabric
+Uncut Fabric for Dragon Robe,metiral,Silk
+Uncut Fabric for Dragon Robe,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Uncut Fabric for Dragon Robe,locate,American
+Ancestor Portrait in the Song Dynasty Style,type,Painting
+Ancestor Portrait in the Song Dynasty Style,metiral,Ink and color on silk
+Ancestor Portrait in the Song Dynasty Style,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Ancestor Portrait in the Song Dynasty Style,locate,American
+The Fish Mongers,type,Painting
+The Fish Mongers,metiral,Oil on canvas
+The Fish Mongers,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Fish Mongers,locate,American
+The Yang Family Women Practicing Martial Arts,type,Photograph
+The Yang Family Women Practicing Martial Arts,metiral,Gelatin silver print
+The Yang Family Women Practicing Martial Arts,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Yang Family Women Practicing Martial Arts,locate,American
+Seated Lohan or Monk,type,Sculpture
+Seated Lohan or Monk,metiral,Wood
+Seated Lohan or Monk,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Seated Lohan or Monk,locate,American
+Calligraphy in Running Script (xing shu),type,Calligraphy
+Calligraphy in Running Script (xing shu),metiral,Ink on paper
+Calligraphy in Running Script (xing shu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running Script (xing shu),locate,American
+Maiden in a Garden,type,Painting
+Maiden in a Garden,metiral,Oil on canvas
+Maiden in a Garden,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Maiden in a Garden,locate,American
+Calligraphy in Seal Script (zhuan shu),type,Calligraphy
+Calligraphy in Seal Script (zhuan shu),metiral,Ink on paper
+Calligraphy in Seal Script (zhuan shu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Seal Script (zhuan shu),locate,American
+Calligraphy in Running Script (xing shu),type,Calligraphy
+Calligraphy in Running Script (xing shu),metiral,Ink on paper
+Calligraphy in Running Script (xing shu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running Script (xing shu),locate,American
+Calligraphy in Running Script (xing shu),type,Calligraphy
+Calligraphy in Running Script (xing shu),metiral,Ink on paper
+Calligraphy in Running Script (xing shu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running Script (xing shu),locate,American
+Calligraphy in Seal Script (zhuan shu),type,Calligraphy
+Calligraphy in Seal Script (zhuan shu),metiral,Ink on paper
+Calligraphy in Seal Script (zhuan shu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Seal Script (zhuan shu),locate,American
+Maiden in a Red Robe,type,Painting
+Maiden in a Red Robe,metiral,Oil on canvas
+Maiden in a Red Robe,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Maiden in a Red Robe,locate,American
+Calligraphy,type,Calligraphy
+Calligraphy,metiral,Ink on paper
+Calligraphy,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy,locate,American
+Summer,type,Painting
+Summer,metiral,Oil on canvas
+Summer,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Summer,locate,American
+Chrysanthemums,type,Painting
+Chrysanthemums,metiral,Ink and color on paper
+Chrysanthemums,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Chrysanthemums,locate,American
+Winter,type,Painting
+Winter,metiral,Oil on canvas
+Winter,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Winter,locate,American
+Autumn,type,Painting
+Autumn,metiral,Oil on canvas
+Autumn,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Autumn,locate,American
+Tree and Hut,type,Painting
+Tree and Hut,metiral,Ink and color on paper
+Tree and Hut,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Tree and Hut,locate,American
+Spring,type,Painting
+Spring,metiral,Oil on canvas
+Spring,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Spring,locate,American
+Bird on a Rock with Roses,type,Painting
+Bird on a Rock with Roses,metiral,Oil on canvas
+Bird on a Rock with Roses,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Bird on a Rock with Roses,locate,American
+Bleeding Heart; Passion Flower; Morning Glories; Blue Daisies and Rhodod...,type,Painting
+Bleeding Heart; Passion Flower; Morning Glories; Blue Daisies and Rhodod...,metiral,Ink and color on paper
+Bleeding Heart; Passion Flower; Morning Glories; Blue Daisies and Rhodod...,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Bleeding Heart; Passion Flower; Morning Glories; Blue Daisies and Rhodod...,locate,American
+Narcissus and Rock,type,Sculpture
+Narcissus and Rock,metiral,Stone
+Narcissus and Rock,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Narcissus and Rock,locate,American
+Calligraphy in Running-Regular Script,type,Calligraphy
+Calligraphy in Running-Regular Script,metiral,Ink on paper
+Calligraphy in Running-Regular Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running-Regular Script,locate,American
+Calligraphy in Running Script,type,Calligraphy
+Calligraphy in Running Script,metiral,Ink on paper
+Calligraphy in Running Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running Script,locate,American
+Bowl,type,Ceramic
+Bowl,metiral,Porcelain
+Bowl,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Bowl,locate,American
+April No. 4,type,Painting
+April No. 4,metiral,Oil on canvas
+April No. 4,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+April No. 4,locate,American
+Calligraphy in Running Script,type,Calligraphy
+Calligraphy in Running Script,metiral,Ink on paper
+Calligraphy in Running Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running Script,locate,American
+Bowl,type,Ceramic
+Bowl,metiral,Porcelain
+Bowl,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Bowl,locate,American
+Calligraphy in Running-Regular Script,type,Calligraphy
+Calligraphy in Running-Regular Script,metiral,Ink on paper
+Calligraphy in Running-Regular Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running-Regular Script,locate,American
+Landscape,type,Painting
+Landscape,metiral,Oil on canvas
+Landscape,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Landscape,locate,American
+Calligraphy,type,Calligraphy
+Calligraphy,metiral,Ink on paper
+Calligraphy,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy,locate,American
+Landscape after Huang Gongwang,type,Painting
+Landscape after Huang Gongwang,metiral,Ink and color on paper
+Landscape after Huang Gongwang,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Landscape after Huang Gongwang,locate,American
+Monk,type,Sculpture
+Monk,metiral,Bronze
+Monk,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Monk,locate,American
+Calligraphy in Regular Script,type,Calligraphy
+Calligraphy in Regular Script,metiral,Ink on paper
+Calligraphy in Regular Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Regular Script,locate,American
+Calligraphy: Chen Shan Mei,type,Calligraphy
+Calligraphy: Chen Shan Mei,metiral,Ink on paper
+Calligraphy: Chen Shan Mei,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy: Chen Shan Mei,locate,American
+Running Serpent,type,Sculpture
+Running Serpent,metiral,Jade
+Running Serpent,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Running Serpent,locate,American
+Calligraphy in Clerical Script,type,Calligraphy
+Calligraphy in Clerical Script,metiral,Ink on paper
+Calligraphy in Clerical Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Clerical Script,locate,American
+Bowl,type,Ceramic
+Bowl,metiral,Porcelain
+Bowl,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Bowl,locate,American
+Calligraphy,type,Calligraphy
+Calligraphy,metiral,Ink on paper
+Calligraphy,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy,locate,American
+Calligraphy in Running-Regular Script,type,Calligraphy
+Calligraphy in Running-Regular Script,metiral,Ink on paper
+Calligraphy in Running-Regular Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running-Regular Script,locate,American
+Calligraphy in Running Script,type,Calligraphy
+Calligraphy in Running Script,metiral,Ink on paper
+Calligraphy in Running Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running Script,locate,American
+Calligraphy,type,Calligraphy
+Calligraphy,metiral,Ink on paper
+Calligraphy,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy,locate,American
+Calligraphy,type,Calligraphy
+Calligraphy,metiral,Ink on paper
+Calligraphy,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy,locate,American
+Ding (Ting),type,Vessel
+Ding (Ting),metiral,Bronze
+Ding (Ting),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Ding (Ting),locate,American
+Brush Washer,type,Vessel
+Brush Washer,metiral,Porcelain
+Brush Washer,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Brush Washer,locate,American
+Saucer for Snuff,type,Vessel
+Saucer for Snuff,metiral,Porcelain
+Saucer for Snuff,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Saucer for Snuff,locate,American
+Pine Tree and Orchids,type,Painting
+Pine Tree and Orchids,metiral,Ink and color on paper
+Pine Tree and Orchids,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Pine Tree and Orchids,locate,American
+Calligraphy in Running-Regular Script (xing kaishu),type,Calligraphy
+Calligraphy in Running-Regular Script (xing kaishu),metiral,Ink on paper
+Calligraphy in Running-Regular Script (xing kaishu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running-Regular Script (xing kaishu),locate,American
+Snuff Bottle,type,Vessel
+Snuff Bottle,metiral,Glass
+Snuff Bottle,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Snuff Bottle,locate,American
+Head,type,Sculpture
+Head,metiral,Stone
+Head,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Head,locate,American
+Calligraphy in Running-Regular Script (xing kaishu),type,Calligraphy
+Calligraphy in Running-Regular Script (xing kaishu),metiral,Ink on paper
+Calligraphy in Running-Regular Script (xing kaishu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Running-Regular Script (xing kaishu),locate,American
+Snuff Bottle,type,Vessel
+Snuff Bottle,metiral,Glass
+Snuff Bottle,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Snuff Bottle,locate,American
+Bowl,type,Ceramic
+Bowl,metiral,Porcelain
+Bowl,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Bowl,locate,American
+Calligraphy in Oracle Bone Script,type,Calligraphy
+Calligraphy in Oracle Bone Script,metiral,Ink on paper
+Calligraphy in Oracle Bone Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Oracle Bone Script,locate,American
+Landscape,type,Painting
+Landscape,metiral,Oil on canvas
+Landscape,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Landscape,locate,American
+The Sun and the Sunlight (Tai yang ri guang),type,Print
+The Sun and the Sunlight (Tai yang ri guang),metiral,Woodcut print
+The Sun and the Sunlight (Tai yang ri guang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Sun and the Sunlight (Tai yang ri guang),locate,American
+The God of Horses (Ma ming wang zhi sheng),type,Print
+The God of Horses (Ma ming wang zhi sheng),metiral,Woodcut print
+The God of Horses (Ma ming wang zhi sheng),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The God of Horses (Ma ming wang zhi sheng),locate,American
+Calligraphy in Oracle Bone Script,type,Calligraphy
+Calligraphy in Oracle Bone Script,metiral,Ink on paper
+Calligraphy in Oracle Bone Script,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Calligraphy in Oracle Bone Script,locate,American
+The Gods of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),type,Print
+The Gods of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),metiral,Woodcut print
+The Gods of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Gods of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),locate,American
+The God of Wealth Hei Hu Xuan Tan,type,Print
+The God of Wealth Hei Hu Xuan Tan,metiral,Woodcut print
+The God of Wealth Hei Hu Xuan Tan,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The God of Wealth Hei Hu Xuan Tan,locate,American
+Ruler of Demons (Gui Wang pu sa),type,Print
+Ruler of Demons (Gui Wang pu sa),metiral,Woodcut print
+Ruler of Demons (Gui Wang pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Ruler of Demons (Gui Wang pu sa),locate,American
+Various Buddhas and All Saints (Zhu fo zong sheng),type,Print
+Various Buddhas and All Saints (Zhu fo zong sheng),metiral,Woodcut print
+Various Buddhas and All Saints (Zhu fo zong sheng),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Various Buddhas and All Saints (Zhu fo zong sheng),locate,American
+The Buddha Who Helps Heaven and Protects the Country (Xie tian hu guo fo),type,Print
+The Buddha Who Helps Heaven and Protects the Country (Xie tian hu guo fo),metiral,Woodcut print
+The Buddha Who Helps Heaven and Protects the Country (Xie tian hu guo fo),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Buddha Who Helps Heaven and Protects the Country (Xie tian hu guo fo),locate,American
+The Taoist God Wen Chang (Wen chang di jun),type,Print
+The Taoist God Wen Chang (Wen chang di jun),metiral,Woodcut print
+The Taoist God Wen Chang (Wen chang di jun),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Taoist God Wen Chang (Wen chang di jun),locate,American
+Beautiful Night - Miyajima Shrine,type,Print
+Beautiful Night - Miyajima Shrine,metiral,Woodcut print
+Beautiful Night - Miyajima Shrine,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Beautiful Night - Miyajima Shrine,locate,American
+Pandaravasini (Bai yi pu sa),type,Print
+Pandaravasini (Bai yi pu sa),metiral,Woodcut print
+Pandaravasini (Bai yi pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Pandaravasini (Bai yi pu sa),locate,American
+The Great Ancestor Lu ban (Lu ban lao zu),type,Print
+The Great Ancestor Lu ban (Lu ban lao zu),metiral,Woodcut print
+The Great Ancestor Lu ban (Lu ban lao zu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Great Ancestor Lu ban (Lu ban lao zu),locate,American
+The God of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),type,Print
+The God of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),metiral,Woodcut print
+The God of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The God of Great Fortune Who Will Increase Happiness and Good Luck (Zeng fu cai shen),locate,American
+The God of Happiness (Xi shen zhi wei),type,Print
+The God of Happiness (Xi shen zhi wei),metiral,Woodcut print
+The God of Happiness (Xi shen zhi wei),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The God of Happiness (Xi shen zhi wei),locate,American
+The Four Kings of the Golden Dragon (Jin long si da wang),type,Print
+The Four Kings of the Golden Dragon (Jin long si da wang),metiral,Woodcut print
+The Four Kings of the Golden Dragon (Jin long si da wang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Four Kings of the Golden Dragon (Jin long si da wang),locate,American
+The God of Bridges (Qiao shen),type,Print
+The God of Bridges (Qiao shen),metiral,Woodcut print
+The God of Bridges (Qiao shen),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The God of Bridges (Qiao shen),locate,American
+Ksitigarbha (Di sang pu sa),type,Print
+Ksitigarbha (Di sang pu sa),metiral,Woodcut print
+Ksitigarbha (Di sang pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Ksitigarbha (Di sang pu sa),locate,American
+"Bhaisajyaraja, the God of Medicine (Ling ying yao wang)",type,Print
+"Bhaisajyaraja, the God of Medicine (Ling ying yao wang)",metiral,Woodcut print
+"Bhaisajyaraja, the God of Medicine (Ling ying yao wang)",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Bhaisajyaraja, the God of Medicine (Ling ying yao wang)",locate,American
+The Deity Ling Ying Cheng Huang,type,Print
+The Deity Ling Ying Cheng Huang,metiral,Woodcut print
+The Deity Ling Ying Cheng Huang,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity Ling Ying Cheng Huang,locate,American
+The Blue Dragon on the Left (Zuo qing long),type,Print
+The Blue Dragon on the Left (Zuo qing long),metiral,Woodcut print
+The Blue Dragon on the Left (Zuo qing long),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Blue Dragon on the Left (Zuo qing long),locate,American
+The Buddha of the Western Heaven (Xi tian fo ye),type,Print
+The Buddha of the Western Heaven (Xi tian fo ye),metiral,Woodcut print
+The Buddha of the Western Heaven (Xi tian fo ye),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Buddha of the Western Heaven (Xi tian fo ye),locate,American
+The True Lord of Great Morality (Da de zhen jun),type,Print
+The True Lord of Great Morality (Da de zhen jun),metiral,Woodcut print
+The True Lord of Great Morality (Da de zhen jun),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The True Lord of Great Morality (Da de zhen jun),locate,American
+The Goddesses of Tai Mountain (Tai shan niang niang),type,Print
+The Goddesses of Tai Mountain (Tai shan niang niang),metiral,Woodcut print
+The Goddesses of Tai Mountain (Tai shan niang niang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Goddesses of Tai Mountain (Tai shan niang niang),locate,American
+The Sacred Seats of Various Gods: The Hall Full of Gold and Jade (Zhong zian ji zhi shen wei: jin yu man tang),type,Print
+The Sacred Seats of Various Gods: The Hall Full of Gold and Jade (Zhong zian ji zhi shen wei: jin yu man tang),metiral,Woodcut print
+The Sacred Seats of Various Gods: The Hall Full of Gold and Jade (Zhong zian ji zhi shen wei: jin yu man tang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Sacred Seats of Various Gods: The Hall Full of Gold and Jade (Zhong zian ji zhi shen wei: jin yu man tang),locate,American
+The Protector of the Laws: Wei tuo (Hu fa wei tuo),type,Print
+The Protector of the Laws: Wei tuo (Hu fa wei tuo),metiral,Woodcut print
+The Protector of the Laws: Wei tuo (Hu fa wei tuo),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Protector of the Laws: Wei tuo (Hu fa wei tuo),locate,American
+Manjusri (Wen shu pu sa),type,Print
+Manjusri (Wen shu pu sa),metiral,Woodcut print
+Manjusri (Wen shu pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Manjusri (Wen shu pu sa),locate,American
+The Goddess of Offspring (Zi sun niang niang),type,Print
+The Goddess of Offspring (Zi sun niang niang),metiral,Woodcut print
+The Goddess of Offspring (Zi sun niang niang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Goddess of Offspring (Zi sun niang niang),locate,American
+Family Ancestors (?) (Ming yi jia tang),type,Print
+Family Ancestors (?) (Ming yi jia tang),metiral,Woodcut print
+Family Ancestors (?) (Ming yi jia tang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Family Ancestors (?) (Ming yi jia tang),locate,American
+The Deity San Jie Zhi Fu,type,Print
+The Deity San Jie Zhi Fu,metiral,Woodcut print
+The Deity San Jie Zhi Fu,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity San Jie Zhi Fu,locate,American
+The Dragon King of the Sea (Shui fu long wang),type,Print
+The Dragon King of the Sea (Shui fu long wang),metiral,Woodcut print
+The Dragon King of the Sea (Shui fu long wang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Dragon King of the Sea (Shui fu long wang),locate,American
+The Goddess of Eyesight (Yan guang niang niang),type,Print
+The Goddess of Eyesight (Yan guang niang niang),metiral,Woodcut print
+The Goddess of Eyesight (Yan guang niang niang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Goddess of Eyesight (Yan guang niang niang),locate,American
+The Deity Tu Ke,type,Print
+The Deity Tu Ke,metiral,Woodcut print
+The Deity Tu Ke,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity Tu Ke,locate,American
+The Deity Xian feng da zong jang jun ji su shan shen (?) tian ren (?) jie (?) zi,type,Print
+The Deity Xian feng da zong jang jun ji su shan shen (?) tian ren (?) jie (?) zi,metiral,Woodcut print
+The Deity Xian feng da zong jang jun ji su shan shen (?) tian ren (?) jie (?) zi,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity Xian feng da zong jang jun ji su shan shen (?) tian ren (?) jie (?) zi,locate,American
+Ma Siwu Mediating a Marital Dispute (Ma siwu tiao jie hun yin an),type,Print
+Ma Siwu Mediating a Marital Dispute (Ma siwu tiao jie hun yin an),metiral,Woodcut print
+Ma Siwu Mediating a Marital Dispute (Ma siwu tiao jie hun yin an),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Ma Siwu Mediating a Marital Dispute (Ma siwu tiao jie hun yin an),locate,American
+The Deity Jian Tan,type,Print
+The Deity Jian Tan,metiral,Woodcut print
+The Deity Jian Tan,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity Jian Tan,locate,American
+The Dragon-drawn Chariot (Tian di long che),type,Print
+The Dragon-drawn Chariot (Tian di long che),metiral,Woodcut print
+The Dragon-drawn Chariot (Tian di long che),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Dragon-drawn Chariot (Tian di long che),locate,American
+Confucius (Zhi sheng zong shi),type,Print
+Confucius (Zhi sheng zong shi),metiral,Woodcut print
+Confucius (Zhi sheng zong shi),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Confucius (Zhi sheng zong shi),locate,American
+The Deity Xun Tan,type,Print
+The Deity Xun Tan,metiral,Woodcut print
+The Deity Xun Tan,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity Xun Tan,locate,American
+The Deity Hu Guo Guan Hui Wang,type,Print
+The Deity Hu Guo Guan Hui Wang,metiral,Woodcut print
+The Deity Hu Guo Guan Hui Wang,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Deity Hu Guo Guan Hui Wang,locate,American
+The God of the Earth (Fu de zheng shen),type,Print
+The God of the Earth (Fu de zheng shen),metiral,Woodcut print
+The God of the Earth (Fu de zheng shen),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The God of the Earth (Fu de zheng shen),locate,American
+Door Guards (Men cheng hu wei),type,Print
+Door Guards (Men cheng hu wei),metiral,Woodcut print
+Door Guards (Men cheng hu wei),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Door Guards (Men cheng hu wei),locate,American
+The White Tiger of the Right (You bai hu),type,Print
+The White Tiger of the Right (You bai hu),metiral,Woodcut print
+The White Tiger of the Right (You bai hu),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The White Tiger of the Right (You bai hu),locate,American
+Zhang the Immortal Who Blesses Millions of Generations (Zhang xian wan dai),type,Print
+Zhang the Immortal Who Blesses Millions of Generations (Zhang xian wan dai),metiral,Woodcut print
+Zhang the Immortal Who Blesses Millions of Generations (Zhang xian wan dai),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Zhang the Immortal Who Blesses Millions of Generations (Zhang xian wan dai),locate,American
+The Kitchen God (Si ming zao jun),type,Print
+The Kitchen God (Si ming zao jun),metiral,Woodcut print
+The Kitchen God (Si ming zao jun),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Kitchen God (Si ming zao jun),locate,American
+"Portfolio for ""Selected Woodcut Prints from the Lu Xun Art Academy"" (""Lu yi me ke xuan ji"")",type,Book
+"Portfolio for ""Selected Woodcut Prints from the Lu Xun Art Academy"" (""Lu yi me ke xuan ji"")",metiral,Paper
+"Portfolio for ""Selected Woodcut Prints from the Lu Xun Art Academy"" (""Lu yi me ke xuan ji"")",belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+"Portfolio for ""Selected Woodcut Prints from the Lu Xun Art Academy"" (""Lu yi me ke xuan ji"")",locate,American
+Samantabhadra (Pu xian pu sa),type,Print
+Samantabhadra (Pu xian pu sa),metiral,Woodcut print
+Samantabhadra (Pu xian pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Samantabhadra (Pu xian pu sa),locate,American
+Getting Back Our Food and Cattle (Duo hui liang shi han niu yang),type,Print
+Getting Back Our Food and Cattle (Duo hui liang shi han niu yang),metiral,Woodcut print
+Getting Back Our Food and Cattle (Duo hui liang shi han niu yang),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Getting Back Our Food and Cattle (Duo hui liang shi han niu yang),locate,American
+The Buddha of the Western Heaven (Si tian fo ye),type,Print
+The Buddha of the Western Heaven (Si tian fo ye),metiral,Woodcut print
+The Buddha of the Western Heaven (Si tian fo ye),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Buddha of the Western Heaven (Si tian fo ye),locate,American
+The Kitchen God (Si ming zao jun),type,Print
+The Kitchen God (Si ming zao jun),metiral,Woodcut print
+The Kitchen God (Si ming zao jun),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Kitchen God (Si ming zao jun),locate,American
+The Daoist Deity Tai Shong Lao Jun,type,Print
+The Daoist Deity Tai Shong Lao Jun,metiral,Woodcut print
+The Daoist Deity Tai Shong Lao Jun,belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+The Daoist Deity Tai Shong Lao Jun,locate,American
+Avalokitesvara (Guan shi yih pu sa),type,Print
+Avalokitesvara (Guan shi yih pu sa),metiral,Woodcut print
+Avalokitesvara (Guan shi yih pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Avalokitesvara (Guan shi yih pu sa),locate,American
+Cundi (Zhun ti pu sa),type,Print
+Cundi (Zhun ti pu sa),metiral,Woodcut print
+Cundi (Zhun ti pu sa),belong,Gerald?Cantor?Center for Visual Arts at?Stanford?University
+Cundi (Zhun ti pu sa),locate,American
