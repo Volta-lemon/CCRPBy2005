@@ -1,0 +1,959 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indianapolis Museum of Art Collection Search</title>
+    <link rel="shortcut icon" type="image/png" href="http://collection.imamuseum.org/assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.typotheque.com/WF-017909-001883.css" type="text/css">
+    
+    <link href="http://collection.imamuseum.org/assets/cache/main.min.css" rel="stylesheet">
+    
+    
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lte IE 9]>
+      
+      <script src="http://collection.imamuseum.org/assets/cache/ie.min.js"></script>
+      
+    <![endif]-->
+
+  </head>
+  <body>
+    
+      <header class="header header-full">
+  <div class="header-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <a class="header-logo" href="http://www.imamuseum.org">
+              <img alt="Indianapolis Museum of Art" src="http://collection.imamuseum.org/assets/images/IMA-logo_white.svg">
+            </a>
+            <a href="#menu" class="pull-right btn header-btn header-menu-btn navbar-toggle" data-toggle="collapse" data-target="#collapseMenu">Menu</a>
+            <a href="#search" class="pull-right btn header-btn header-search-btn navbar-toggle" data-toggle="collapse" data-target="#collapseSearch">Search <span class="hidden-xs">the Collection</span></a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="collapse navbar-collapse collection-menu" id="collapseMenu">
+    <li class="collection-menu-item active"><a href="/results.html?has_image=T">Search the Collection</a></li>
+    <li class="collection-menu-item "><a href="/browse/recent-acquisitions/?sort=metadata.accession_date_sort">Recent Acquisitions</a></li>
+    <li class="collection-menu-item "><a href="/browse/deaccessioned-artworks/?sort=metadata.deaccession_date">Deaccessioned Artworks</a></li>
+</ul>
+
+  </div>
+
+  <div class="collapse navbar-collapse search-bar" id="collapseSearch">
+    <div class="container">
+      <div class="row">
+      
+        <form method="get" action="/results.html" class="navbar-form search-bar-form">
+      
+          <div class="col-md-5 col-lg-6">
+            
+              <input type="text" class="search-bar-query ui-autocomplete-input" name="query" id="srch-term" placeholder="search title, artist, style, etc." autocomplete="off">
+            
+            <button class="search-bar-submit pull-right" type="submit"></button>
+          </div>
+          <div class="col-sm-8 col-md-3">
+            <div class="styled-select styled-select-dark">
+              <label class="sr-only" for="search_select">Field to Search</label>
+              <select name="search_field" id="search_select">
+                <option value="">All</option>
+                <option value="metadata.actor.display_name">Artist</option>
+                <option value="metadata.title">Title</option>
+                <option value="metadata.web_departments">Collection Area</option>
+                <option value="metadata.region">Region of Origin</option>
+                <option value="metadata.computed_date_earliest">Created Date</option>
+                <option value="metadata.accession_num">Accession Number</option>
+                <option value="metadata.medium">Materials</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="pull-left">
+              <input type="checkbox" name="has_image" id="has_image" class="search-bar-checkbox" value="T">
+              <label class="search-bar-checkbox-label" for="has_image">has image</label>
+            </div>
+            <div class="pull-left">
+              <input type="checkbox" name="on_view" id="on_view" class="search-bar-checkbox" value="T">
+              <label class="search-bar-checkbox-label" for="on_view">on display</label>
+            </div>
+          </div>
+
+          <input type="hidden" name="sort" value="">
+        </form>
+        <!-- <div class="col-md-4 search-nav pull-right">
+          <div class="wrapper"><a href="#" class="search-nav-prev">prev</a> | <span class="search-nav-current">1</span> of <span class="search-nav-total">1</span> | <a href="#" class="search-nav-next">next</a></div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</header>
+<!--/.header -->
+
+    
+
+    
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-12">
+          <h1>Search Results</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 pull-left">
+
+        <p>Results for: <span id="query_term">china</span></p>
+
+        <h3>Refine Results</h3>
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-facets" id="panel-departments">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="?query=china&amp;has_image=T&amp;page=0#collapseTwo">
+        <span class="h4 panel-title">
+          + Collection Area
+        </span>
+      </a>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body" id="department_container">
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=American Painting and Sculpture to 1945">American Painting and Sculpture to 1945 <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=Ancient Art of the Mediterranean">Ancient Art of the Mediterranean <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=Asian Art">Asian Art <span class="doc-count">(123)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=Decorative Arts">Decorative Arts <span class="doc-count">(20)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=Design Arts">Design Arts <span class="doc-count">(8)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=European Painting and Sculpture Before 1800">European Painting and Sculpture Before 1800 <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=Prints, Drawings, and Photographs">Prints, Drawings, and Photographs <span class="doc-count">(23)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;department=Textile and Fashion Arts">Textile and Fashion Arts <span class="doc-count">(21)</span></a><br>
+</div>
+    </div>
+  </div>
+  <div class="panel panel-facets" id="panel-maker">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="?query=china&amp;has_image=T&amp;page=0#collapseFour">
+        <span class="h4 panel-title">
+          + Artist/Maker
+        </span>
+      </a>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body" id="maker_container">
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Allom, Thomas">Allom, Thomas <span class="doc-count">(7)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Antreasian, Garo Zareh">Antreasian, Garo Zareh <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Blass, Bill">Blass, Bill <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Bow China Works">Bow China Works <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Bracquemond, Félix">Bracquemond, Félix <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Bureau of Engraving and Printing">Bureau of Engraving and Printing <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Castleton China Co.">Castleton China Co. <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Chase, William Merritt">Chase, William Merritt <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Chen Banding">Chen Banding <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Chen Hongshou 陳洪綬">Chen Hongshou 陳洪綬 <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Chen Yi">Chen Yi <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Chiang Er-shih">Chiang Er-shih <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Chippendale, Thomas">Chippendale, Thomas <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Christian Friederich Herold">Christian Friederich Herold <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Conner, Lois">Conner, Lois <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Dai Jin">Dai Jin <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Darly, Matthew">Darly, Matthew <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=De Morgan, William">De Morgan, William <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=DeFrancis, Lisa">DeFrancis, Lisa <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Dong Qichang">Dong Qichang <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Du Jin 杜堇">Du Jin 杜堇 <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Eberlein, Johann Friedrich">Eberlein, Johann Friedrich <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Eggemeyer, Maude">Eggemeyer, Maude <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=G. and E. Spitzer">G. and E. Spitzer <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Gehry, Frank Owen">Gehry, Frank Owen <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Hall China Company">Hall China Company <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Halston">Halston <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Hanabusa Itchō">Hanabusa Itchō <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Harrison, Caroline Lavinia Scott">Harrison, Caroline Lavinia Scott <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Hasegawa Tōhaku">Hasegawa Tōhaku <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Hongren">Hongren <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Horikosen">Horikosen <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Hu Jiusi">Hu Jiusi <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Huang Jun">Huang Jun <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=I.W. Caley">I.W. Caley <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Iles and Passenger">Iles and Passenger <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Indiana, Robert">Indiana, Robert <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Josiah Wedgwood and Sons">Josiah Wedgwood and Sons <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Ju Lian">Ju Lian <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Kalf, Willem">Kalf, Willem <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Katsushika Hokusai 葛飾北斎">Katsushika Hokusai 葛飾北斎 <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Meissen Porcelain Manufactory">Meissen Porcelain Manufactory <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Moy, Seong">Moy, Seong <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Unknown">Unknown <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Unkoku Tôgan 雲谷 等顔">Unkoku Tôgan 雲谷 等顔 <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Utagawa Hiroshige">Utagawa Hiroshige <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Utagawa Kunisada II">Utagawa Kunisada II <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Utagawa Kunisada 歌川国貞">Utagawa Kunisada 歌川国貞 <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Verdon, Angela">Verdon, Angela <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;name=Zeisel, Eva">Zeisel, Eva <span class="doc-count">(6)</span></a><br>
+</div>
+    </div>
+  </div>
+  <div class="panel panel-facets" id="panel-materials">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="?query=china&amp;has_image=T&amp;page=0#collapseFive">
+        <span class="h4 panel-title">
+          + Materials
+        </span>
+      </a>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse">
+      <div class="panel-body" id="materials_container">
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=aquamarine">aquamarine <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=beads">beads <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=bone china">bone china <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=ceramic">ceramic <span class="doc-count">(4)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=charcoal">charcoal <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=color">color <span class="doc-count">(29)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=colored ink">colored ink <span class="doc-count">(12)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=cotton">cotton <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=crayon">crayon <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=crystal">crystal <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=earthenware">earthenware <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=enamel">enamel <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=enamels">enamels <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=fur">fur <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=gilding">gilding <span class="doc-count">(7)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=glaze">glaze <span class="doc-count">(34)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=gold">gold <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=gold leaf">gold leaf <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=graphite">graphite <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=hard paste porcelain">hard paste porcelain <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=ink">ink <span class="doc-count">(63)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=lacquer">lacquer <span class="doc-count">(4)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=net {textile}">net {textile} <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=oil paint">oil paint <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=overglaze">overglaze <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=paint">paint <span class="doc-count">(9)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=paper">paper <span class="doc-count">(15)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=pigment">pigment <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=platinum">platinum <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=polychromy">polychromy <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=porcelain">porcelain <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=ribbon">ribbon <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=silk">silk <span class="doc-count">(9)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=silk {fabric or thread}">silk {fabric or thread} <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=slip">slip <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=stone">stone <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=stoneware">stoneware <span class="doc-count">(13)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=thread">thread <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=tin glaze">tin glaze <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=underglazing">underglazing <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;medium=watercolor">watercolor <span class="doc-count">(1)</span></a><br>
+</div>
+    </div>
+  </div>
+  <div class="panel panel-facets" id="panel-object-types">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="?query=china&amp;has_image=T&amp;page=0#collapseSix">
+        <span class="h4 panel-title">
+          + Object Type
+        </span>
+      </a>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse">
+      <div class="panel-body" id="object_type_container">
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=<coverings and hangings>">&lt;coverings and hangings&gt; <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=ball gowns">ball gowns <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=belts">belts <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=bodices">bodices <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=bottles">bottles <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=bowls">bowls <span class="doc-count">(10)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=bracelets">bracelets <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=calligraphy">calligraphy <span class="doc-count">(4)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=ceramics">ceramics <span class="doc-count">(7)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=coats">coats <span class="doc-count">(4)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=color lithographs">color lithographs <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=color woodcuts">color woodcuts <span class="doc-count">(12)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=compotes">compotes <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=containers">containers <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=costume accessories ">costume accessories  <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=costume accessories (worn)">costume accessories (worn) <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=costumes">costumes <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=cups">cups <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=day dresses">day dresses <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=decorative arts">decorative arts <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=dinnerware">dinnerware <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=diptychs">diptychs <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=dishes">dishes <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=drawings">drawings <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=dresses">dresses <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=earthenware">earthenware <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=engravings">engravings <span class="doc-count">(7)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=ensembles">ensembles <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=figures">figures <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=figurines">figurines <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=handscrolls">handscrolls <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=hanging scrolls">hanging scrolls <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=jackets">jackets <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=jars">jars <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=lithographs">lithographs <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=oil paintings">oil paintings <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=paintings">paintings <span class="doc-count">(14)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=plates">plates <span class="doc-count">(7)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=prints">prints <span class="doc-count">(22)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=saucers">saucers <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=scroll paintings">scroll paintings <span class="doc-count">(26)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=sculptures">sculptures <span class="doc-count">(17)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=shirts">shirts <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=skirts">skirts <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=stoneware">stoneware <span class="doc-count">(3)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=teapots">teapots <span class="doc-count">(8)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=vases">vases <span class="doc-count">(9)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=vessels">vessels <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=vessels (containers)">vessels (containers) <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;type=woodcuts">woodcuts <span class="doc-count">(3)</span></a><br>
+</div>
+    </div>
+  </div>
+  <div class="panel panel-facets" id="panel-technique">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="?query=china&amp;has_image=T&amp;page=0#collapseSeven">
+        <span class="h4 panel-title">
+          + Technique
+        </span>
+      </a>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse">
+      <div class="panel-body" id="technique_container">
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=carving">carving <span class="doc-count">(5)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=crepe">crepe <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=drawing">drawing <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=drawing ">drawing  <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=embroidering">embroidering <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=engraving">engraving <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=engraving ">engraving  <span class="doc-count">(7)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=etching">etching <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=firing">firing <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=gilding">gilding <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=glazing">glazing <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=modeling">modeling <span class="doc-count">(12)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=molding">molding <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=offset lithography">offset lithography <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=painting">painting <span class="doc-count">(6)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=platinum process">platinum process <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=pottery">pottery <span class="doc-count">(2)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=sewing">sewing <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=underglazing">underglazing <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=wood engraving">wood engraving <span class="doc-count">(1)</span></a><br>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;technique=woodcutting">woodcutting <span class="doc-count">(10)</span></a><br>
+</div>
+    </div>
+  </div>
+  <div class="panel panel-facets" id="panel-colors">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="?query=china&amp;has_image=T&amp;page=0#collapseEight">
+        <span class="h4 panel-title">
+          + Colors
+        </span>
+      </a>
+    </div>
+    <div id="collapseEight" class="panel-collapse collapse">
+      <div class="panel-body" id="colors_container">
+  <div class="color-palette">
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=1a2421" class="color-palette-item" style="background-color: #1a2421"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=1c352d" class="color-palette-item" style="background-color: #1c352d"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=2c1608" class="color-palette-item" style="background-color: #2c1608"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=321414" class="color-palette-item" style="background-color: #321414"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=36454f" class="color-palette-item" style="background-color: #36454f"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=3d2b1f" class="color-palette-item" style="background-color: #3d2b1f"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=414833" class="color-palette-item" style="background-color: #414833"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=414a4c" class="color-palette-item" style="background-color: #414a4c"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=483c32" class="color-palette-item" style="background-color: #483c32"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=4b3621" class="color-palette-item" style="background-color: #4b3621"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=4d5d53" class="color-palette-item" style="background-color: #4d5d53"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=50404d" class="color-palette-item" style="background-color: #50404d"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=534b4f" class="color-palette-item" style="background-color: #534b4f"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=536872" class="color-palette-item" style="background-color: #536872"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=536878" class="color-palette-item" style="background-color: #536878"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=536895" class="color-palette-item" style="background-color: #536895"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=555555" class="color-palette-item" style="background-color: #555555"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=592720" class="color-palette-item" style="background-color: #592720"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=635147" class="color-palette-item" style="background-color: #635147"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=645452" class="color-palette-item" style="background-color: #645452"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=654321" class="color-palette-item" style="background-color: #654321"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=696969" class="color-palette-item" style="background-color: #696969"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=6c541e" class="color-palette-item" style="background-color: #6c541e"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=6e7f80" class="color-palette-item" style="background-color: #6e7f80"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=6f4e37" class="color-palette-item" style="background-color: #6f4e37"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=701c1c" class="color-palette-item" style="background-color: #701c1c"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=708090" class="color-palette-item" style="background-color: #708090"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=778899" class="color-palette-item" style="background-color: #778899"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=78866b" class="color-palette-item" style="background-color: #78866b"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=808080" class="color-palette-item" style="background-color: #808080"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=836953" class="color-palette-item" style="background-color: #836953"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=848482" class="color-palette-item" style="background-color: #848482"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=8a795d" class="color-palette-item" style="background-color: #8a795d"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=8b8589" class="color-palette-item" style="background-color: #8b8589"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=918151" class="color-palette-item" style="background-color: #918151"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=91a3b0" class="color-palette-item" style="background-color: #91a3b0"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=987654" class="color-palette-item" style="background-color: #987654"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=98817b" class="color-palette-item" style="background-color: #98817b"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=996515" class="color-palette-item" style="background-color: #996515"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=9f8170" class="color-palette-item" style="background-color: #9f8170"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=a67b5b" class="color-palette-item" style="background-color: #a67b5b"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=a99a86" class="color-palette-item" style="background-color: #a99a86"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=a9a9a9" class="color-palette-item" style="background-color: #a9a9a9"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=b2beb5" class="color-palette-item" style="background-color: #b2beb5"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=b38b6d" class="color-palette-item" style="background-color: #b38b6d"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=bc987e" class="color-palette-item" style="background-color: #bc987e"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=c3b091" class="color-palette-item" style="background-color: #c3b091"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=c9c0bb" class="color-palette-item" style="background-color: #c9c0bb"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=d2b48c" class="color-palette-item" style="background-color: #d2b48c"></a>
+      <a href="?query=china&amp;has_image=T&amp;page=0&amp;color=edc9af" class="color-palette-item" style="background-color: #edc9af"></a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="col-xs-12 col-md-9">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="total-results" id="total_container">
+    198 results found
+  </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 pull-right">
+            <form method="get" class="sort">
+              <label for="sort_select">sort by</label>
+              <div class="styled-select styled-select-light">
+                <select name="sort" id="sort_select">
+                  <option value="">Relevance</option>
+                  <option value="metadata.title">Title</option>
+                  <option value="metadata.actors.display_name">Artist/Maker</option>
+                  <option value="metadata.computed_date_earliest">Creation Date</option>
+                  <option value="metadata.accession_date_sort">Acquisition Date</option>
+                  <option value="metadata.accession_num">Accession Number</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="no-space col-xs-12">
+            <div class="collection-container" id="collection_container">
+    
+    <div class="masonry" style="position: relative; height: 1592.81px;">
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 0px; top: 0px;">
+          <a href="http://collection.imamuseum.org/artwork/54829/">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/54829/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  bridal coat
+              </strong>
+
+
+                <br>about 1870
+
+                <br>06.20
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 242px; top: 0px;">
+          <a href="http://collection.imamuseum.org/artwork/6415/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/6415/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  Tōtōmi 遠江
+              </strong>
+
+                <br>Utagawa Hiroshige 歌川広重 (Japanese, 1797-1858)
+                <br>Yokogawa Takejirō 横川竹二郎 (Japanese)
+
+                <br>1853 (Ox 8)
+
+                <br>10.182
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 484px; top: 0px;">
+          <a href="http://collection.imamuseum.org/artwork/33434/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/33434/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  Wakasa 若狭
+              </strong>
+
+                <br>Utagawa Hiroshige 歌川広重 (Japanese, 1797-1858)
+                <br>Horikosen (Japanese)
+
+                <br>1853 (Ox 9)
+
+                <br>10.201
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 0px; top: 400px;">
+          <a href="http://collection.imamuseum.org/artwork/5390/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/5390/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  Brush Washer with Poetic Immortals
+              </strong>
+
+
+                <br>1701-1800
+
+                <br>12.135A-B
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 484px; top: 484px;">
+          <a href="http://collection.imamuseum.org/artwork/55823/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/55823/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  Big Copper Kettle and Fish (Fish)
+              </strong>
+
+                <br>William Merritt Chase (American, 1849-1916)
+
+                <br>about 1914
+
+                <br>15.9
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 242px; top: 497px;">
+          <a href="http://collection.imamuseum.org/artwork/54830/">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/54830/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  woman's semi-formal domestic overcoat
+              </strong>
+
+
+                <br>early 1900s
+
+                <br>17.164
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 0px; top: 799px;">
+          <a href="http://collection.imamuseum.org/artwork/16554/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/16554/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  woman's collar
+              </strong>
+
+
+                <br>about 1880
+
+                <br>18.66
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 484px; top: 802px;">
+          <a href="http://collection.imamuseum.org/artwork/38404/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/38404/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  plate with rose and tulip design
+              </strong>
+
+
+                <br>17th-18th centuries
+
+                <br>19.45
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 242px; top: 906px;">
+          <a href="http://collection.imamuseum.org/artwork/54718/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/54718/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  rectangular dish with flower
+              </strong>
+
+
+                <br>about 1600
+
+                <br>1983.1
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 484px; top: 1046px;">
+          <a href="http://collection.imamuseum.org/artwork/50314/">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/50314/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  landscape after Zhao Danian
+              </strong>
+
+                <br>Wang Jian (Chinese, 1598-1677)
+
+                <br>1664
+
+                <br>1983.186
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 0px; top: 1169px;">
+          <a href="http://collection.imamuseum.org/artwork/32829/">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/32829/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  Buddha
+              </strong>
+
+                <br>Unknown
+
+                <br>1000s
+
+                <br>1983.189
+            </p>
+          </a>
+        </div>
+        <div class="item col-xs-6 col-md-4" style="position: absolute; left: 242px; top: 1183px;">
+          <a href="http://collection.imamuseum.org/artwork/32366/">
+              
+              
+              
+              
+              
+              <img src="http://collection.imamuseum.org/artwork/32366/0_preview.jpg" class="img-responsive">
+            <p>
+              <strong>
+                  sculpture vase
+              </strong>
+
+                <br>Angela  Verdon (English, 1949-)
+
+                <br>1983
+
+                <br>1983.88
+            </p>
+          </a>
+        </div>
+    </div>
+
+  </div>
+            <div class="pagination-container" id="pagination-container"><div class="pagination"><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#" class="next" rel="next">Next &gt;</a><a href="#" class="ep">Last &gt;&gt;</a></div></div>
+            <div class="paging" id="paging">Showing page 1 of 17</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script>AUTOCOMPLETE_URL = "http://dagwood.imalab.us/api/v1/suggest/?";</script>
+
+
+    <!-- child of the body tag -->
+    <span id="top-link-block" class="hidden">
+        <a href="#top" class="" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+            <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+        </a>
+    </span><!-- /top-link-block -->
+
+    
+    <script src="http://collection.imamuseum.org/assets/cache/main.min.js"></script>
+    
+
+    
+  <script>SEARCH_URL = "http://dagwood.imalab.us/api/v1/search/?";</script>
+  
+  <script src="http://collection.imamuseum.org/assets/cache/search.min.js"></script>
+  
+
+  <script id="collection_items" type="text/html">
+    <div class="filters" id="filters">
+      <p class="filter-title">Active Filters:</p>
+      [[#filter_terms]]
+        <div class="filter-active" data-value="[[term]]"><span class="filter-active-text">[[title]]</span> [[#hex]]<span class='color-palette-item filter-color-palette-item' style='background-color: #[[hex]]'></span>[[/hex]] <a href="#" class="filter-close"><span class="close filter-close-marker">&times;</span></a></div>
+      [[/filter_terms]]
+    </div>
+    <div class="masonry">
+      [[#results]]
+        <div class="item col-xs-6 col-md-4">
+          <a href="[[source.url]]">
+            [[#source.images]]
+              [[#main_image.length]]<img src="[[main_image]]" class="img-responsive">[[/main_image.length]]
+            [[/source.images]]
+            [[^source.images]]
+              <img src="http://collection.imamuseum.org/assets/images/no-image.png" class="img-responsive">
+            [[/source.images]]
+            <p>
+              <strong>
+                [[#source.metadata.title]]
+                  [[source.metadata.title]]
+                [[/source.metadata.title]]
+                [[^source.metadata.title]]
+                  Untitled
+                [[/source.metadata.title]]
+              </strong>
+
+              [[#source.metadata.actors]]
+                <br />[[display_name]]
+              [[/source.metadata.actors]]
+
+              [[#source.metadata.date_created]]
+                <br />[[source.metadata.date_created]]
+              [[/source.metadata.date_created]]
+
+              [[#source.metadata.accession_num]]
+                <br />[[source.metadata.accession_num]]
+              [[/source.metadata.accession_num]]
+            </p>
+          </a>
+        </div>
+      [[/results]]
+    </div>
+
+    [[^results]]
+      <p>Your search term returned no results. Please try another keyword.</p>
+    [[/results]]
+  </script>
+
+  <script id="department" type="text/html">
+  [[#aggs.web_departments.buckets]]
+    [[#key]]
+      <a href="&department=[[key]]">[[key]] <span class="doc-count">([[doc_count]])</span></a><br />
+    [[/key]]
+  [[/aggs.web_departments.buckets]]
+</script>
+
+<script id="maker" type="text/html">
+  [[#aggs.name.buckets]]
+    [[#key]]
+      <a href="&name=[[key]]">[[key]] <span class="doc-count">([[doc_count]])</span></a><br />
+    [[/key]]
+  [[/aggs.name.buckets]]
+</script>
+
+<script id="materials" type="text/html">
+  [[#aggs.mediums.buckets]]
+    [[#key]]
+      <a href="&medium=[[key]]">[[key]] <span class="doc-count">([[doc_count]])</span></a><br />
+    [[/key]]
+  [[/aggs.mediums.buckets]]
+</script>
+
+<script id="object_type" type="text/html">
+  [[#aggs.object_types.buckets]]
+    [[#key]]
+      <a href="&type=[[key]]">[[key]] <span class="doc-count">([[doc_count]])</span></a><br />
+    [[/key]]
+  [[/aggs.object_types.buckets]]
+</script>
+
+<script id="technique" type="text/html">
+  [[#aggs.technique.buckets]]
+    [[#key]]
+      <a href="&technique=[[key]]">[[key]] <span class="doc-count">([[doc_count]])</span></a><br />
+    [[/key]]
+  [[/aggs.technique.buckets]]
+</script>
+
+<script id="colors" type="text/html">
+  <div class="color-palette">
+  [[#aggs.colors.buckets]]
+    [[#key]]
+      <a href="&color=[[key]]" class="color-palette-item" style="background-color: #[[key]]"></a>
+    [[/key]]
+  [[/aggs.colors.buckets]]
+  </div>
+</script>
+
+
+  <script id="total" type="text/html">
+    [[total]] results found
+  </script>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-1868672-6', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span></body></html>
