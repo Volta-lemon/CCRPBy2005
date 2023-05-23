@@ -1,0 +1,2161 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>e-Museum - Result(s)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="e国宝,重要文化財,国宝">
+<meta name="description" content="文化財高精細画像公開システム(「e国宝」)">
+<meta name="author" content="">
+
+
+	
+	
+		
+			
+			
+				<link rel="stylesheet" href="./en/assets/css/style.css?v=16">
+				<script src="./en/assets/js/lib/jquery-min.js?v=16"></script>
+				<script src="./en/assets/js/jquery.matchHeight-min.js?v=16"></script>
+				<script src="./en/assets/js/jquery.cookie.js?v=16"></script>
+				<script src="./en/assets/js/common.js?v=16"></script>
+			
+		
+
+<!-- <script src="./assets/js/lib/jquery-min.js"></script>
+<script src="./assets/js/jquery.matchHeight-min.js"></script>
+<script src="./assets/js/common.js"></script>-->
+<script src="./assets/js/contentHeader.js?v=16"></script>
+<script src="./assets/js/result_add.js?v=16"></script>
+
+<script>
+$(window).on('load resize', function(){
+	$('#wrapper .inner .item').matchHeight();
+});
+
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93746640-4"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+var _ga_granted = 'denied';
+var _ga_cookies = document.cookie.split(';');
+for (var c of _ga_cookies){
+	var carr = c.trim().split('=');
+	if (carr[0] == 'consent_cookie' && carr[1] == '1') {
+		_ga_granted = 'granted';
+	}
+}
+gtag('consent', 'default', { 'ad_storage': 'denied','analytics_storage': _ga_granted });
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-93746640-4');
+</script>
+</head>
+<body>
+<div id="container">
+<header id="header">
+		<div class="inner">
+
+			<h1 id="ttlSite" class="sub">
+				
+					<a href="/top?langId=en&amp;webView=">
+						<span>
+
+						
+						
+							<img src="/en/assets/img/logo.svg" alt="National Treasures &amp; Important Cultural Properties&lt;br&gt;　of National Institutes for Cultural Heritage, Japanimage" class="pc">
+							<img src="/en/assets/img/logoS.svg" alt="" class="sp">
+						
+						<strong>
+							<span>National Treasures & Important Cultural Properties<br></span>
+							<span>of National Institutes for Cultural Heritage, Japan</span>
+						</strong>
+						</span>
+					</a>
+				
+			</h1>
+		
+		
+			<div class="icnMenu">
+				<p class="menu-trigger" id="menu-trigger"> <span></span> <span></span> <span></span></p>
+				
+			</div>
+			<div id="navi-trigger" class="naviWrap">
+				<div class="language">
+					<h3>LANGUAGE</h3>
+					<ul>
+
+							<li><a href="/result?langId=ja&amp;webView=&amp;freeword=chinese&amp;pageCnt=1" class="lang_id" data-lang_id="ja">日本語</a></li>
+							<li class="current"><a href="/result?langId=en&amp;webView=&amp;freeword=chinese&amp;pageCnt=1" class="lang_id" data-lang_id="en">English</a></li>
+							<li><a href="/result?langId=zh&amp;webView=&amp;freeword=chinese&amp;pageCnt=1" class="lang_id" data-lang_id="zh">中文</a></li>
+							<li><a href="/result?langId=ko&amp;webView=&amp;freeword=chinese&amp;pageCnt=1" class="lang_id" data-lang_id="ko">한국어</a></li>
+
+
+
+					</ul>
+				</div>
+						<!-- <button id = "debugBtn">デバッグ用</button>　 -->
+				<nav id="category">
+					<h2>Categories</h2>
+					<ul>
+							<li>	<a href="/result?langId=en&amp;class=1&amp;webView=">Painting</a></li>
+							<li>	<a href="/result?langId=en&amp;class=2&amp;webView=">Calligraphy</a></li>
+							<li>	<a href="/result?langId=en&amp;class=3&amp;webView=">Sculpture</a></li>
+							<li>	<a href="/result?langId=en&amp;class=4&amp;webView=">Architecture</a></li>
+							<li>	<a href="/result?langId=en&amp;class=5&amp;webView=">Metalwork</a></li>
+							<li>	<a href="/result?langId=en&amp;class=6&amp;webView=">Swords</a></li>
+							<li>	<a href="/result?langId=en&amp;class=7&amp;webView=">Ceramics</a></li>
+							<li>	<a href="/result?langId=en&amp;class=8&amp;webView=">Lacquerware</a></li>
+							<li>	<a href="/result?langId=en&amp;class=9&amp;webView=">Textiles</a></li>
+							<li>	<a href="/result?langId=en&amp;class=10&amp;webView=">Archaeology</a></li>
+							<li>	<a href="/result?langId=en&amp;class=11&amp;webView="><span>Historical </span><span>Materials</a></li>
+							<li>	<a href="/result?langId=en&amp;class=12&amp;webView="><span>Hōryūji</span><span>Treasures</span></a></li>
+					</ul>
+				</nav>
+				<ul class="btnLink">
+				<li class="howto button"><a href="/howto?&amp;langId=en&amp;webView=">e-Museum Guide</a></li>
+				<li class="imgSave button"><a href="/savelist?&amp;langId=en&amp;webView=">Saved Images<span id="savelistLength"></span></a></li>
+				
+				<!--<li  th:if="${webview=='1'}"><a th:href="@{/twitter/}" ><span  th:text="${twLink}" th:remove="tag"></span></a></li>-->
+				</ul>
+			</div>
+
+			<div id="search">
+				<div class="search">
+				<!-- <img src="assets/img/btnSearch1.svg" th:alt="${search}" class="sp">-->
+				
+					
+					
+						
+						<img src="/en/assets/img/btnSearch1.svg" alt="Searchimage" class="sp">
+					
+					
+					
+				
+					<div class="pc searchForm">
+						<form action="/result" method="get" name="freewordSearch">
+							<input id="freeword" type="text" name="freeword" title="search" value="chinese" placeholder="Search Works"  maxlength="100" >
+							<input id="langId" type="hidden" name="langId" value="en" />
+							<input id="webView" type="hidden" name="webView" value="" />
+							<input id="fwSearch" type="submit" name="fwSearch" value="Search">
+						</form>
+						<input type="reset" name="" value="Cancel" class="cancel sp">
+					</div>
+				</div>
+				<p class="button">
+					 <a href="/search?langId=en&amp;webView=">
+					 <span class="pc">Advanced Search</span>
+						<!-- <img src="assets/img/btnSearch2.svg" th:alt="${advancedSearch}" class="sp">-->
+					
+						
+						
+							
+							<img  src="/en/assets/img/btnSearch2.svg" alt="Advanced Searchimage" class="sp">
+						
+						
+						
+					
+
+					</a>
+				 </p>
+			</div>
+
+		</div>
+	</header>
+	<div id="wrapper" class="list">
+		<div class="inner">
+			<!--↓<h2>のテキストの文字数が4文字以上の場合はclass="wc"をつけてください↓-->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+
+					
+						<h2 id="ttlCate" ><span>Result(s)</span></h2>
+					
+					
+				
+			
+
+
+
+			<p class="total"><span>224 Results</span></p>
+			<div id="target" class="listArea clearfix" >
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100949&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100949001005/5/thumbnail.jpeg"  alt="Landscapeimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No1">Landscape</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（A甲227）
+						</p>
+					</a>
+					<p hidden>100949</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100237&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100237001000/1/thumbnail.jpeg"  alt="Hell Scrollimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No2">Hell Scroll</h3>
+						<p>
+							
+							
+							
+							1 handscroll　
+							Color on paper　
+							Heian period, 12th century　
+						</p>
+						<p>
+							Nara National Museum
+							（644）
+						</p>
+					</a>
+					<p hidden>100237</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100247&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100247001001/1/thumbnail.jpeg"  alt="Extermination of Evilimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No3">Extermination of Evil</h3>
+						<p>
+							
+							
+							
+							5 hanging scrolls　
+							Color on paper　
+							Heian period,  12th century　
+						</p>
+						<p>
+							Nara National Museum
+							（1106）
+						</p>
+					</a>
+					<p hidden>100247</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100248&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100248001001/1/thumbnail.jpeg"  alt="Jûichimen Kannon,Eleven-Headed Kannonimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No4">Jûichimen Kannon,Eleven-Headed Kannon</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Color on silk　
+							Heian period, 12th century　
+						</p>
+						<p>
+							Nara National Museum
+							（1176(絵217)）
+						</p>
+					</a>
+					<p hidden>100248</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100155&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100155001000/8/thumbnail.jpeg"  alt="Hell Scrollimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No5">Hell Scroll</h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Color on silk　
+							Heian period/12th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10942）
+						</p>
+					</a>
+					<p hidden>100155</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100156&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100156002000/12/thumbnail.jpeg"  alt="Illustrated Biography of the Priest Ippen： Volume 7image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No6">Illustrated Biography of the Priest Ippen： Volume 7</h3>
+						<p>
+							By Hougen Enni　
+							
+							
+							1 scroll　
+							Color on silk　
+							Kamakura period/Shouan 1(1299)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10944）
+						</p>
+					</a>
+					<p hidden>100156</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100950&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100950001001/1/thumbnail.jpeg"  alt="View of Amanohashidateimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No7">View of Amanohashidate</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（A甲228）
+						</p>
+					</a>
+					<p hidden>100950</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100005&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100005001002/2/thumbnail.jpeg"  alt="&lt;i&gt;Zhou Maoshu Admiring Lotuses&lt;/i&gt;image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No8"><i>Zhou Maoshu Admiring Lotuses</i></h3>
+						<p>
+							By Kanō Masanobu　
+							
+							
+							Hanging scroll　
+							Ink and light color on paper　
+							Muromachi period, 15th century　
+						</p>
+						<p>
+							Kyushu National Museum
+							（A35）
+						</p>
+					</a>
+					<p hidden>100005</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100145&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100145001001/1/thumbnail.jpeg"  alt="Reading in a Bamboo Groveimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No9">Reading in a Bamboo Grove</h3>
+						<p>
+							Purportedly by Shūbun. Preface by Jikuun Touren, and poems by Kousei Ryuha and other four monks　
+							
+							
+							1 hanging scroll　
+							light color on paper　
+							Muromachi period/15th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-1164）
+						</p>
+					</a>
+					<p hidden>100145</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100151&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100151001003/3/thumbnail.jpeg"  alt="Pine Trees screenimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No10">Pine Trees screen</h3>
+						<p>
+							By Hasegawa Touhaku　
+							
+							
+							A pair of six-fold screens　
+							Ink on paper　
+							Azuchi-Momoyama period/16th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10471）
+						</p>
+					</a>
+					<p hidden>100151</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100959&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100959001001/1/thumbnail.jpeg"  alt="Waterfowls in Lotus Pondimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No11">Waterfowls in Lotus Pond</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（A甲261）
+						</p>
+					</a>
+					<p hidden>100959</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100149&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100149001004/4/thumbnail.jpeg"  alt="Chinese Landscape screenimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No12">Chinese Landscape screen</h3>
+						<p>
+							By Ike no Taiga　
+							
+							
+							A pair of six-fold screens　
+							Ink and color on paper covered with gold leaves　
+							Edo period/18th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10430）
+						</p>
+					</a>
+					<p hidden>100149</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100216&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100216001001/1/thumbnail.jpeg"  alt="Red and White Cotton Rosesimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No13">Red and White Cotton Roses</h3>
+						<p>
+							By Li Di　
+							
+							
+							2 hanging scrolls　
+							Color on silk　
+							Southern Song dynasty/Keigen(Qingyuan) 3(1197)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TA-137）
+						</p>
+					</a>
+					<p hidden>100216</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100217&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100217001001/1/thumbnail.jpeg"  alt="Sakyamuni descending the mountain after asceticism/Snowy Landscapeimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No14">Sakyamuni descending the mountain after asceticism/Snowy Landscape</h3>
+						<p>
+							By Liang Kai　
+							
+							
+							3 hanging scrolls　
+							Ink and light color on paper 　
+							Southern Song dynasty　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TA-141、617、642）
+						</p>
+					</a>
+					<p hidden>100217</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101075&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101075001000/1/thumbnail.jpeg"  alt="Jomyogenron (Jingming xuan lun; Commentary on the Vimalakirti Nirdesa Sutra)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No15">Jomyogenron (Jingming xuan lun; Commentary on the Vimalakirti Nirdesa Sutra)</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲671）
+						</p>
+					</a>
+					<p hidden>101075</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101016&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101016001001/1/thumbnail.jpeg"  alt="Fragmentary Volume of Senju Sengen Daranikyo Sutra (Also Known as Genbogankyo)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No16">Fragmentary Volume of Senju Sengen Daranikyo Sutra (Also Known as Genbogankyo)</h3>
+						<p>
+							
+							
+							
+							
+							
+							Nara period/8th century　
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲62）
+						</p>
+					</a>
+					<p hidden>101016</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101051&amp;content_part_id=18&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101051018001/1/thumbnail.jpeg"  alt="Segment of the Shinomura Edition of a Chinese Poem from the Moshiogusa Album of Exemplary Calligrapimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No17">Segment of the Shinomura Edition of a Chinese Poem from the Moshiogusa Album of Exemplary Calligrap</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲414）
+						</p>
+					</a>
+					<p hidden>101051</p>
+					<p hidden>18</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101305&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101305001978/978/thumbnail.jpeg"  alt="Wooden documents from the Nara Palace Siteimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No18">Wooden documents from the Nara Palace Site</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Nara National Research Institute for Cultural Properties
+							（6ABOBH80000008）
+						</p>
+					</a>
+					<p hidden>101305</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100164&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100164001000/1/thumbnail.jpeg"  alt="Sutra of the Wise and Foolish (Large Shōmu) image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No19">Sutra of the Wise and Foolish (Large Shōmu) </h3>
+						<p>
+							Purportedly by Emperor Shōmu　
+							
+							
+							1 scroll　
+							Ink on paper　
+							Nara period/8th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2402）
+						</p>
+					</a>
+					<p hidden>100164</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101052&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101052001002/2/thumbnail.jpeg"  alt="Draft Letter by Fujiwara Tadamichiimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No20">Draft Letter by Fujiwara Tadamichi</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲415）
+						</p>
+					</a>
+					<p hidden>101052</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101056&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101056001001/1/thumbnail.jpeg"  alt="Fragment from the Hon&#39;ami Edition of Kokin Wakashu (Collection of Ancient and Modern Japanese Poems)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No21">Fragment from the Hon'ami Edition of Kokin Wakashu (Collection of Ancient and Modern Japanese Poems)</h3>
+						<p>
+							
+							
+							
+							
+							
+							Heian period/11th century　
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲548）
+						</p>
+					</a>
+					<p hidden>101056</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101065&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101065001000/1/thumbnail.jpeg"  alt="Poems from Wakan Roeishu (Collection of Japanese and Chinese Verses) on Paper with Design of Reedsimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No22">Poems from Wakan Roeishu (Collection of Japanese and Chinese Verses) on Paper with Design of Reeds</h3>
+						<p>
+							
+							
+							
+							
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲598）
+						</p>
+					</a>
+					<p hidden>101065</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101069&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101069001000/1/thumbnail.jpeg"  alt="Shinsen Ruirinsho (Anthology of Chinese Poetry)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No23">Shinsen Ruirinsho (Anthology of Chinese Poetry)</h3>
+						<p>
+							
+							
+							
+							
+							
+							Heian period/ 9th century　
+						</p>
+						<p>
+							Kyoto National Museum
+							（B甲616）
+						</p>
+					</a>
+					<p hidden>101069</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100244&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100244001001/1/thumbnail.jpeg"  alt="Segment of the Kongôhannyakyô Sutra Commentaryimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No24">Segment of the Kongôhannyakyô Sutra Commentary</h3>
+						<p>
+							By Kûkai　
+							
+							
+							1 handscroll　
+							Ink on paper　
+							Heian period, 9th century　
+						</p>
+						<p>
+							Nara National Museum
+							（649(書19)）
+						</p>
+					</a>
+					<p hidden>100244</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100249&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100249001000/1/thumbnail.jpeg"  alt="Chronicles of Japan, Volume 10image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No25">Chronicles of Japan, Volume 10</h3>
+						<p>
+							
+							
+							
+							1 handscroll　
+							Ink on paper　
+							Heian period, 9th century　
+						</p>
+						<p>
+							Nara National Museum
+							（1190(書93)）
+						</p>
+					</a>
+					<p hidden>100249</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100166&amp;content_part_id=4&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100166004001/1/thumbnail.jpeg"  alt="Certificate Issued by Government Headquarters in Dazaifu image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No26">Certificate Issued by Government Headquarters in Dazaifu </h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Ink on paper　
+							Heian period/Jinju 3(853）　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2405）
+						</p>
+					</a>
+					<p hidden>100166</p>
+					<p hidden>4</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100167&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100167007000/124/thumbnail.jpeg"  alt="Genryaku-koubon Manyoushuu (Anthology of Ten Thousand Leaves, Genryaku Edition)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No27">Genryaku-koubon Manyoushuu (Anthology of Ten Thousand Leaves, Genryaku Edition)</h3>
+						<p>
+							
+							
+							
+							20 volumes　
+							Ink on decorative paper / Ink on paper (Volume 6)　
+							Heian period/11th century (Vol.6: Kamakura Period/12th century)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2530）
+						</p>
+					</a>
+					<p hidden>100167</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100168&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100168010001/1/thumbnail.jpeg"  alt="Gunsho Chiyou (summary of good governing skill from various materials)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No28">Gunsho Chiyou (summary of good governing skill from various materials)</h3>
+						<p>
+							
+							
+							
+							13 scrolls　
+							Ink on decorative paper　
+							Heian period/11th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2531）
+						</p>
+					</a>
+					<p hidden>100168</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100169&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100169001000/1/thumbnail.jpeg"  alt="Autumn BushｰClover Scroll/Commentary on the Military Strategy Chapter of  The Great Brilliance of Huainan(on the reverse side document) image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No29">Autumn BushｰClover Scroll/Commentary on the Military Strategy Chapter of  The Great Brilliance of Huainan(on the reverse side document) </h3>
+						<p>
+							Purportedly by Ono no Tōfū　
+							
+							
+							1 scroll　
+							Ink on decorative paper　
+							Heian period/11-12th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2532）
+						</p>
+					</a>
+					<p hidden>100169</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100170&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100170001000/1/thumbnail.jpeg"  alt="Poetic Anthology of Bo Juyiimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No30">Poetic Anthology of Bo Juyi</h3>
+						<p>
+							By Fujiwara no Kousei　
+							
+							
+							1 scroll　
+							Ink on decorative paper　
+							Heian period/Kannin 2(1018)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2533）
+						</p>
+					</a>
+					<p hidden>100170</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100171&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100171001000/1/thumbnail.jpeg"  alt="Collection of Ancient and Modern Japanese Poems, Gen&#39;ei Versionimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No31">Collection of Ancient and Modern Japanese Poems, Gen'ei Version</h3>
+						<p>
+							
+							
+							
+							2 booklets　
+							Ink on decorative paper　
+							Heian period/12th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-2814）
+						</p>
+					</a>
+					<p hidden>100171</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100174&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100174001000/1/thumbnail.jpeg"  alt="Essay on Ten Styles of Japanese Poemsimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No32">Essay on Ten Styles of Japanese Poems</h3>
+						<p>
+							
+							
+							
+							1 scroll, 1 hanging scroll　
+							Ink on decorative paper　
+							Heian period/11th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-3231, B-3232）
+						</p>
+					</a>
+					<p hidden>100174</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100172&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100172001000/1/thumbnail.jpeg"  alt="Illustrated Tales of the Three Buddhist Jewelsimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No33">Illustrated Tales of the Three Buddhist Jewels</h3>
+						<p>
+							
+							
+							
+							3 volumes　
+							Ink on paper　
+							Kamakura period/Bunnei 10(1273)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（B-3046）
+						</p>
+					</a>
+					<p hidden>100172</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100230&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100230003001/1/thumbnail.jpeg"  alt="Shishuo xinshu, Segment of Volume 6image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No34">Shishuo xinshu, Segment of Volume 6</h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Ink on paper　
+							Tang dynasty/7-8th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TB-1570）
+						</p>
+					</a>
+					<p hidden>100230</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100231&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100231001000/1/thumbnail.jpeg"  alt="Old-Script Document of Antiquities (Guwen Shangshu), Volume 6image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No35">Old-Script Document of Antiquities (Guwen Shangshu), Volume 6</h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Ink on paper　
+							Tang dynasty/7th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TB-1572）
+						</p>
+					</a>
+					<p hidden>100231</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100222&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100222001001/1/thumbnail.jpeg"  alt="Teaching on Enlightenment (&quot;Torn Xutang&quot;)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No36">Teaching on Enlightenment ("Torn Xutang")</h3>
+						<p>
+							By Xutang Zhiyu　
+							
+							
+							1 hanging scroll　
+							Ink on paper　
+							Southern Song dynasty/13th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TB-1169）
+						</p>
+					</a>
+					<p hidden>100222</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100223&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100223001001/1/thumbnail.jpeg"  alt="Certificate of Buddhist Spiritual Achievement (&quot;Floating Yuanwu&quot;)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No37">Certificate of Buddhist Spiritual Achievement ("Floating Yuanwu")</h3>
+						<p>
+							By Yuanwu Keqin　
+							
+							
+							1 hanging scroll　
+							Ink on paper　
+							Northern Song dynasty/Senwa(Xuanhe) 6(1124)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TB-1171）
+						</p>
+					</a>
+					<p hidden>100223</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100224&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100224001002/2/thumbnail.jpeg"  alt="Letter of Dahui Zonggaoimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No38">Letter of Dahui Zonggao</h3>
+						<p>
+							By Dahui Zonggao　
+							
+							
+							1 hanging scroll　
+							Ink on paper　
+							Southern Song dynasty/12th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TB-1173）
+						</p>
+					</a>
+					<p hidden>100224</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100225&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100225001002/2/thumbnail.jpeg"  alt="Letter of Wuzhun Shifan (&quot;Calligraphy of the Board Gift&quot;)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No39">Letter of Wuzhun Shifan ("Calligraphy of the Board Gift")</h3>
+						<p>
+							By Wuzhun Shifan　
+							
+							
+							1 hanging scroll　
+							Ink on paper　
+							Southern Song dynasty/Junyuu(Chunyou) 2(1242)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（TB-1174）
+						</p>
+					</a>
+					<p hidden>100225</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100182&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100182001001/1/thumbnail.jpeg"  alt="Decorative Sword Mountingimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No40">Decorative Sword Mounting</h3>
+						<p>
+							
+							
+							
+							1 piece　
+							
+							Heian period/12th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（F-356）
+						</p>
+					</a>
+					<p hidden>100182</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100202&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100202002001/1/thumbnail.jpeg"  alt="Objects from the Grave of Fumi no Nemaroimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No41">Objects from the Grave of Fumi no Nemaro</h3>
+						<p>
+							
+							
+							Excavated from the Grave of Fumi no Nemaro, in Yataki, Haibara Town, Uda County, Nara Prefecture　
+							
+							
+							Nara period/Keiun 4(707)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（J-39201～J-39203）
+						</p>
+					</a>
+					<p hidden>100202</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100214&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100214001009/9/thumbnail.jpeg"  alt="Dragon-Headed Ewerimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No42">Dragon-Headed Ewer</h3>
+						<p>
+							
+							
+							
+							1 piece　
+							Bronze with gilding and silver plate　
+							Asuka period/7th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（N-243）
+						</p>
+					</a>
+					<p hidden>100214</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100206&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100206001001/1/thumbnail.jpeg"  alt="Record of Imperial Bequest to Horyu-jiimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No43">Record of Imperial Bequest to Horyu-ji</h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Ink on paper　
+							Nara period/Tenpyoushouhou 8(756)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（N-5）
+						</p>
+					</a>
+					<p hidden>100206</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100210&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100210001001/1/thumbnail.jpeg"  alt="Mirrors with Sea and Islandsimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No44">Mirrors with Sea and Islands</h3>
+						<p>
+							
+							
+							
+							2 pieces　
+							Cast nickel　
+							Tang dynasty or Nara period/8th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（N-74, N-75）
+						</p>
+					</a>
+					<p hidden>100210</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							<p class="property l1">National Treasure</p>
+
+							
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100207&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100207005000/1/thumbnail.jpeg"  alt="Lotus Sutra in Minute Characters image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No45">Lotus Sutra in Minute Characters </h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Ink on paper　
+							Tang dynasty/Chouju 3(694)　
+						</p>
+						<p>
+							Tokyo National Museum
+							（N-7）
+						</p>
+					</a>
+					<p hidden>100207</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100033&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100033001001/1/thumbnail.jpeg"  alt="Mandala of the Pure Land of Amida (Amitabha), (J., Amida Jodo Mandara)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No46">Mandala of the Pure Land of Amida (Amitabha), (J., Amida Jodo Mandara)</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Color on silk, gold-leaf, decorated with thin metal strips 　
+							Heian period/12th century　
+						</p>
+						<p>
+							Nara National Museum
+							（650(絵137)）
+						</p>
+					</a>
+					<p hidden>100033</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100066&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100066001002/2/thumbnail.jpeg"  alt="Sudhana&#39;s Pilgrimage to Fifty-five Spiritual Teachers as Described in the Flower Ornament Scripture (Avatamsaka Sutra), (J., Kegon Gojugosho E), (Scene of Sudhana Meeting Upasika)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No47">Sudhana's Pilgrimage to Fifty-five Spiritual Teachers as Described in the Flower Ornament Scripture (Avatamsaka Sutra), (J., Kegon Gojugosho E), (Scene of Sudhana Meeting Upasika)</h3>
+						<p>
+							
+							
+							
+							1 piece　
+							Panel; ink and colors on silk　
+							Heian period/12th century　
+						</p>
+						<p>
+							Nara National Museum
+							（888(絵178)）
+						</p>
+					</a>
+					<p hidden>100066</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100255&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100255001000/22/thumbnail.jpeg"  alt="Buddhist patriarchsimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No48">Buddhist patriarchs</h3>
+						<p>
+							By Genshou　
+							
+							
+							1 scroll　
+							Ink and light color on paper 　
+							Heian period/12th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10）
+						</p>
+					</a>
+					<p hidden>100255</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=101302&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/101302001000/1/thumbnail.jpeg"  alt="Tutelary Deities and Administrators of Wakasa Provinceimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No49">Tutelary Deities and Administrators of Wakasa Province</h3>
+						<p>
+							
+							
+							
+							Handscroll　
+							
+							
+						</p>
+						<p>
+							Kyoto National Museum
+							（A甲262）
+						</p>
+					</a>
+					<p hidden>101302</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100034&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100034001000/1/thumbnail.jpeg"  alt="Iconographic Drawings of the Womb World Mandala (J., Taizo Zuzo)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No50">Iconographic Drawings of the Womb World Mandala (J., Taizo Zuzo)</h3>
+						<p>
+							By Zenkaku　
+							
+							
+							2 scrolls　
+							Ink on paper, black and white only, scroll　
+							Kamakura period/Kenkyū 5(1194)　
+						</p>
+						<p>
+							Nara National Museum
+							（651(絵138)）
+						</p>
+					</a>
+					<p hidden>100034</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100055&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100055001001/1/thumbnail.jpeg"  alt="Fugen (Samantabhadra) and Ten Rasetsunyo (Raksasis)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No51">Fugen (Samantabhadra) and Ten Rasetsunyo (Raksasis)</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Hanging scroll; ink and colors on silk, decorated with thin metal strip　
+							Kamakura period/13th century　
+						</p>
+						<p>
+							Nara National Museum
+							（824(絵167)）
+						</p>
+					</a>
+					<p hidden>100055</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100057&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100057001001/1/thumbnail.jpeg"  alt="Sakyamuni Triadimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No52">Sakyamuni Triad</h3>
+						<p>
+							
+							
+							
+							3 hanging scrolls　
+							Hanging scroll; colors and gold on silk　
+							Kamakura period/14th century　
+						</p>
+						<p>
+							Nara National Museum
+							（831(絵172)）
+						</p>
+					</a>
+					<p hidden>100057</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100072&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100072001001/1/thumbnail.jpeg"  alt="Thousand-Armed Kannon (Sahasrabhuja)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No53">Thousand-Armed Kannon (Sahasrabhuja)</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Hanging scroll; ink, colors and gold on silk, gold-leaf, decorated with thin metal strips　
+							Kamakura period/14th century　
+						</p>
+						<p>
+							Nara National Museum
+							（943(絵182)）
+						</p>
+					</a>
+					<p hidden>100072</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100074&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100074001005/5/thumbnail.jpeg"  alt="Five Great Myoo (Vidyarajas)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No54">Five Great Myoo (Vidyarajas)</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Hanging scroll; ink and colors on silk　
+							Kamakura period/13th-14th century　
+						</p>
+						<p>
+							Nara National Museum
+							（945(絵184)）
+						</p>
+					</a>
+					<p hidden>100074</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100078&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100078001001/1/thumbnail.jpeg"  alt="Portrait of Ando En&#39;eimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No55">Portrait of Ando En'e</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Hanging scroll; ink, colors and gold on silk　
+							Kamakura period/Gentoku 2(1330)　
+						</p>
+						<p>
+							Nara National Museum
+							（949(絵188)）
+						</p>
+					</a>
+					<p hidden>100078</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100086&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100086001001/1/thumbnail.jpeg"  alt="Portrait of the Priest Daoxuan (Dosen)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No56">Portrait of the Priest Daoxuan (Dosen)</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Hanging scroll; ink, colors and gold on silk　
+							Kamakura period/14th century　
+						</p>
+						<p>
+							Nara National Museum
+							（1005(絵193)）
+						</p>
+					</a>
+					<p hidden>100086</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100089&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100089001002/2/thumbnail.jpeg"  alt="White-Robed Kannon (Pandaravasini)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No57">White-Robed Kannon (Pandaravasini)</h3>
+						<p>
+							
+							
+							
+							1 hanging scroll　
+							Hanging scroll; ink on silk　
+							Kamakura period/13th-14th century　
+						</p>
+						<p>
+							Nara National Museum
+							（1010(絵198)）
+						</p>
+					</a>
+					<p hidden>100089</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100260&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100260001000/1/thumbnail.jpeg"  alt="Kitano Tenjin Engi (legends about the origin of Kitano Tenjin Shrine)image"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No58">Kitano Tenjin Engi (legends about the origin of Kitano Tenjin Shrine)</h3>
+						<p>
+							
+							
+							
+							2 scrolls　
+							Color on paper　
+							Kamakura period/13th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-29, A-227）
+						</p>
+					</a>
+					<p hidden>100260</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100283&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100283002000/1/thumbnail.jpeg"  alt="Horse Doctors, emakiimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No59">Horse Doctors, emaki</h3>
+						<p>
+							
+							
+							
+							1 scroll　
+							Color on paper　
+							Kamakura period/13th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10479）
+						</p>
+					</a>
+					<p hidden>100283</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+
+				<div class="item">
+
+							
+
+							<p class="property l2">Important Cultural Property</p>
+
+					<a href="/detail?langId=en&amp;webView=&amp;content_base_id=100309&amp;content_part_id=0&amp;content_pict_id=0">
+						<div class="imgArea">
+							<div><img class="image" src="/img/content/100309001003/3/thumbnail.jpeg"  alt="Priest Xian-zi catching shrimpimage"  onerror="this.src='./assets/img/viewer/no_image_big.jpg'"></div>
+							<!-- <div><img th:src="${thumbdir} + ${kokuho.content_code} + '/'+ ${kokuho.pict_file_name} +'.' + ${kokuho.pict_file_type}"  th:alt="${kokuho.content_name}"></div>-->
+						</div>
+						<h3  id="No60">Priest Xian-zi catching shrimp</h3>
+						<p>
+							By Kao Ninga 　
+							
+							
+							1 hanging scroll　
+							Ink on paper　
+							Nanbokuchō period/14th century　
+						</p>
+						<p>
+							Tokyo National Museum
+							（A-10931）
+						</p>
+					</a>
+					<p hidden>100309</p>
+					<p hidden>0</p>
+					<p hidden>0</p>
+
+
+				</div>
+			</div>
+			<div id ="add" class="more">
+				<p>Show more</p>
+				<input type="hidden" id="langId" value="en" />
+				<input type="hidden" id="area" value="" />
+				<input type="hidden" id="region" value="" />
+				<input type="hidden" id="title" value="" />
+				<input type="hidden" id="century" value="" />
+				<input type="hidden" id="cptype" value="" />
+				<input type="hidden" id="c_e" value="" />
+				<input type="hidden" id="owner" value="" />
+				<input type="hidden" id="nextfreeword" value="chinese" />
+				<input type="hidden" id="class" value="" />
+				<input type="hidden" id="webView" value="" />
+				<input type="hidden" id="pageCnt" value="1" />
+				<input type="hidden" id="allcnt" value="224" />
+				<input type="hidden" id="dCnt" value="60" />
+				<input type="hidden" id="remain" value="164" />
+			</div>
+			<div id='addLoader' style='text-align:center; display:none;'>
+				
+				<div><img src="assets/img/load.svg" width="80" height="80" alt="Loading"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div class="inner">
+			<p class="linkAbout"><a href="/about?langId=en&amp;webView=">About e-Museum</a></p>
+			<address class="copyright">
+			&copy;National Institutes for Cultural Heritage
+			</address>
+		</div>
+	</footer>
+</div>
+<div id="loader">
+	
+	<div><img src="assets/img/load.svg" width="80" height="80" alt="Loading"></div>
+
+</div>
+</body>
+</html>
